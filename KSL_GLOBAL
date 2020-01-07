@@ -1,9 +1,4 @@
-# KSL
-echo "      
-echo " KSL GAMINGမှကြိုဆိုပါသည် "
-echo
-echo " PUBG MOBILE GLOBAL VERSION 0.16.0 "
-echo
+
 echo " Copy Paster Fuck You "
 echo " ╔╗╔═╗╔═══╗╔╗─── "
 echo " ║║║╔╝║╔═╗║║║─── "
@@ -17,33 +12,23 @@ echo "║║─╚╝ ║╔═╗║ ║╔╗╔╗║ ─║║─ ║╔╗�
 echo "║║╔═╗ ║╚═╝║ ║║║║║║ ─║║─ ║║╚╗║║ ║║╔═╗ "
 echo "║╚╩═║ ║╔═╗║ ║║║║║║ ╔╣─╗ ║║─║║║ ║╚╩═║ "
 echo "╚═══╝ ╚╝─╚╝ ╚╝╚╝╚╝ ╚══╝ ╚╝─╚═╝ ╚═══╝ "
-
-
-
 sleep 5
-
 CHUNK=$(yes '\x1E\xFF\x2F\xE1\x1C\xB0\x8D\xE2' | head -n 1500 | tr -d '\n'); NUMGEN=$(seq 4000 | tr '\r\n' ' '); printf $CHUNK%.0s $NUMGEN &> libUE4.so
 CHUNK=$(yes '\x1E\xFF\x2F\xE1\x1C\xB0\x8D\xE2' | head -n 100 | tr -d '\n'); NUMGEN=$(seq 4000 | tr '\r\n' ' '); printf $CHUNK%.0s $NUMGEN &> libtersafe.so
 CHUNK=$(yes '\x1E\xFF\x2F\xE1\x1C\xB0\x8D\xE2' | head -n 20 | tr -d '\n'); NUMGEN=$(seq 4000 | tr '\r\n' ' '); printf $CHUNK%.0s $NUMGEN &> libtprt.so
-
 sleep 8
-
 mv /data/data/com.tencent.ig/lib/libUE4.so ../
 mv /data/data/com.tencent.ig/lib/libtersafe.so ../
 mv /data/data/com.tencent.ig/lib/libtprt.so ../
 mv libUE4.so /data/data/com.tencent.ig/lib
 mv libtersafe.so /data/data/com.tencent.ig/lib
 mv libtprt.so /data/data/com.tencent.ig/lib
-
 chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libtersafe.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libtprt.so
-
 chown 1000:1000 /data/data/com.tencent.ig/lib/libUE4.so
 chown 1000:1000 /data/data/com.tencent.ig/lib/libtersafe.so
 chown 1000:1000 /data/data/com.tencent.ig/lib/libtprt.so
-
-
 iptables -I INPUT -s dlied1.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s report.helpshift.com -j DROP &>/dev/null
 iptables -I INPUT -s report.qq.com -j DROP &>/dev/null
@@ -52,7 +37,6 @@ iptables -I INPUT -s sy.guanjia.qq.com -j DROP &>/dev/null
 rm -rf /data/data/com.tencent.ig/databases/* > /dev/null
 FUCKINGLOGS()
 {
-
 rm -rf /sdcard/Android/data/com.tencent.ig/files/ProgramBinaryCache &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/tbslog &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Paks &> /dev/null
@@ -232,9 +216,6 @@ break
 fi
 done
 rm -rf /data/data/com.tencent.ig/*
-
 pm install -r /data/app/com.tencent.ig*/base.apk
-
 su -c iptables --flush
-
-echo "ANTIBAN OFF
+echo "ANTIBAN OFF"
