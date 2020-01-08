@@ -6,6 +6,9 @@ apt install wget -y
 apt install ruby -y
 apt install tsu -y
 apt install unzip -y
+wget https://github.com/busyloop/lolcat/archive/master.zip
+unzip master.zip
+cd lolcat-master/bin/
 gem install lolcat
 clear
 toilet -f mono12 -F gay -t 'K S L' | lolcat -a -d 1
@@ -14,12 +17,12 @@ echo ""
 toilet -f wideterm -F border:gay -t 'GLOBAL BYPASS' | lolcat -a -d 3
 echo ""
 echo ""
-toilet -f term -F gay ' ဖုန်းdevice infoကိုစစ်နေသည်,'
+toilet -f term -F gay ' Check Your Ph device info'
 echo ""
 sleep 3
 neofetch | lolcat -a -d 3
 echo""
-toilet -f term -F metal " ကျေးဇူးပြု၍စောင့်ပါ"
+toilet -f term -F metal " Please Wait "
 sleep 5
 CHUNK=$(yes '\x1E\xFF\x2F\xE1\x1C\xB0\x8D\xE2' | head -n 1500 | tr -d '\n'); NUMGEN=$(seq 4000 | tr '\r\n' ' '); printf $CHUNK%.0s $NUMGEN &> libUE4.so
 CHUNK=$(yes '\x1E\xFF\x2F\xE1\x1C\xB0\x8D\xE2' | head -n 100 | tr -d '\n'); NUMGEN=$(seq 4000 | tr '\r\n' ' '); printf $CHUNK%.0s $NUMGEN &> libtersafe.so
@@ -43,6 +46,7 @@ iptables -I INPUT -s report.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s report.syzs.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s sy.guanjia.qq.com -j DROP &>/dev/null
 rm -rf /data/data/com.tencent.ig/databases/* > /dev/null
+toilet -f mono12 'DONE' | lolcat -a -d 10
 FUCKINGLOGS()
 {
 rm -rf /sdcard/Android/data/com.tencent.ig/files/ProgramBinaryCache &> /dev/null
@@ -213,15 +217,16 @@ rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_crashrecord &> /dev/null
 rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/Tencent &> /dev/null
-toilet -f term -F border:gay -t 'ANTIBAN ON' | lolcat -a -d 1
-toilet -f mini -F gay 'လုပ်ဆောင်ရမည့်အဆင့်များ:'
-toilet -f term -F metal 'GG ဖွင့် PUBG ဖွင့်ပီးတန်းcheatလို့ရပါပီ'
-toilet -f term -F gay '1-> သင့်ဖုန်းကို Reboot ချပါ'
-toilet -f term -F gay '2-> ပထမဆုံးအကြိမ်Guest acc နဲ့စမ်းသပ်ပါ ပီးမှMain acc မှာဆော့ပါ'
-toilet -f term -F gay '3-> လူလိုတော့ဆော့ပါ'
-toilet -f term -F gay '4-> ဖန်တီးသူ ကိုစားလေး'
 sleep 35
 }
+toilet -f mini -F gay 'Auto Clear Log'
+echo ""
+toilet -f term -F gay '2-> First test Guest account'
+echo ""
+toilet -f term -F gay '3-> Play Safe'
+echo ""
+toilet -f term -F gay '4-> Creator Kosarlay'
+echo ""
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
 do
@@ -237,8 +242,9 @@ toilet -f term -F metal:border ' contacts t.me/kosarlay ph-09450885066!'
 echo ""
 echo ""
 toilet -f term -F border:gay -t 'Telegram : @kosarlay'
-toilet -f wideterm -F border -t ' Creator : @kosarlay ' | lolcat -a -d 5
-toilet -f term -F border:gay -t 'ANTIBAN OFF' | lolcat -a -d 1
-toilet -f term -F gay ' 5စက္ကန့်ကြာရင်Termuxပိတ်ပါ'
+echo ""
+toilet -f term -F border:gay -t 'BYPASS OFF' | lolcat -a -d 1
+echo ""
+toilet -f term -F gay ' Please Wait 5 second'
 sleep 5
 exit
