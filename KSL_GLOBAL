@@ -213,7 +213,7 @@ rm -rf /data/data/com.tencent.ig/app_appcache &> /dev/null
 rm -rf /data/data/com.tencent.ig/app_crashrecord &> /dev/null
 rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/Tencent &> /dev/null
-toilet -f mono12 ' DONE ' | lolcat -a -d 10
+toilet -f term -F border:gay -t 'ANTIBAN ON' | lolcat -a -d 1
 toilet -f mini -F gay 'လုပ်ဆောင်ရမည့်အဆင့်များ:'
 toilet -f term -F metal 'GG ဖွင့် PUBG ဖွင့်ပီးတန်းcheatလို့ရပါပီ'
 toilet -f term -F gay '1-> သင့်ဖုန်းကို Reboot ချပါ'
