@@ -33,18 +33,18 @@ toilet -f term -F metal:border 'Contacts Phone 09450885066 '
 echo ""
 toilet -f term -F border:gay -t ' Start Clear Log' | lolcat -a -d 1
 while true; do
-rm /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
-rm /data/data/com.tencent.ig/files/tcj_hash.dat
-rm /data/data/com.tencent.ig/files/tcj_up_cache.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/comm.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
-rm /data/data/com.tencent.ig/files/tss_tmp/config3.xml
-rm /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
-rm /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
-rm /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
+tsudo rm /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
+tsudo rm /data/data/com.tencent.ig/files/tcj_hash.dat
+tsudo rm /data/data/com.tencent.ig/files/tcj_up_cache.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/comm.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/config3.xml
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
+tsudo rm /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
 toilet -f mini -F gay 'Auto Clear Log'
 sleep 2;
 done
