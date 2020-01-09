@@ -12,24 +12,26 @@ cd lolcat-master/bin/
 gem install lolcat
 clear
 toilet -f mono12 -F gay -t 'K S L' | lolcat -a -d 1
-toilet -f wideterm -F border:gay -t ' KSL_GAMING ' | lolcat -a -d 1
+toilet -f wideterm -F border:gay -t '    KSL GAMING    ' | lolcat -a -d 1
 echo ""
-toilet -f term -F gay ' Check Your Ph device info'
+toilet -f mini -F border:gay -t ' GLOBAL ' | lolcat -a -d 3
+echo ""
+echo ""
+toilet -f term -F gay '  Checking Your Phone Device '
 echo ""
 sleep 3
 neofetch | lolcat -a -d 3
 echo""
-toilet -f term -F metal " Please Wait "
+toilet -f term -F metal " PLEASE WAIT "
+echo " "
+toilet -f mono12 'DONE' | lolcat -a -d 10
+toilet -f mini -F gay ' START Antiban System'
+toilet -f term -F gay ' First , Test Guest Account'
+toilet -f term -F gay ' JOIN @Kosarlay_Gaming'
+toilet -f term -F gay ' Play Safe '
+toilet -f term -F metal:border 'Contacts Phone 09450885066 '
 echo ""
-toilet -f term -F gay '2-> First test Guest account'
-echo ""
-toilet -f term -F gay '3-> Play Safe'
-echo ""
-toilet -f term -F gay '4-> Creator Kosarlay'
-echo ""
-toilet -f term -F metal:border ' contacts t.me/kosarlay ph-09450885066!'
-echo ""
-toilet -f term -F border:gay -t 'Telegram : @kosarlay'
+toilet -f term -F border:gay -t ' Start Clear Log' | lolcat -a -d 1
 while true; do
 rm /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
 rm /data/data/com.tencent.ig/files/tcj_hash.dat
