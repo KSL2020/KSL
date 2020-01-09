@@ -1,0 +1,48 @@
+apt update && apt upgrade
+apt install figlet -y
+apt install neofetch -y
+apt install toilet -y
+apt install wget -y
+apt install ruby -y
+apt install tsu -y
+apt install unzip -y
+wget https://github.com/busyloop/lolcat/archive/master.zip
+unzip master.zip
+cd lolcat-master/bin/
+gem install lolcat
+clear
+toilet -f mono12 -F gay -t 'K S L' | lolcat -a -d 1
+toilet -f wideterm -F border:gay -t ' KSL_GAMING ' | lolcat -a -d 1
+echo ""
+toilet -f term -F gay ' Check Your Ph device info'
+echo ""
+sleep 3
+neofetch | lolcat -a -d 3
+echo""
+toilet -f term -F metal " Please Wait "
+echo ""
+toilet -f term -F gay '2-> First test Guest account'
+echo ""
+toilet -f term -F gay '3-> Play Safe'
+echo ""
+toilet -f term -F gay '4-> Creator Kosarlay'
+echo ""
+toilet -f term -F metal:border ' contacts t.me/kosarlay ph-09450885066!'
+echo ""
+toilet -f term -F border:gay -t 'Telegram : @kosarlay'
+while true; do
+rm /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
+rm /data/data/com.tencent.ig/files/tcj_hash.dat
+rm /data/data/com.tencent.ig/files/tcj_up_cache.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/comm.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
+rm /data/data/com.tencent.ig/files/tss_tmp/config3.xml
+rm /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
+rm /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
+rm /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
+toilet -f mini -F gay 'Auto Clear Log'
+sleep 2;
+done
