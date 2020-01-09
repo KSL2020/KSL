@@ -19,13 +19,12 @@ echo ""
 echo ""
 toilet -f term -F gay '  Checking Your Phone Device '
 echo ""
-sleep 3
 neofetch | lolcat -a -d 3
 echo""
 toilet -f term -F metal " PLEASE WAIT "
 echo " "
 toilet -f mono12 'DONE' | lolcat -a -d 10
-toilet -f mini -F gay ' START Antiban System'
+toilet -f wideterm -F border:gay -t '    START ANTIBAN     ' | lolcat -a -d 1
 toilet -f term -F gay ' First , Test Guest Account'
 toilet -f term -F gay ' JOIN @Kosarlay_Gaming'
 toilet -f term -F gay ' Play Safe '
@@ -48,7 +47,7 @@ tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
 tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
 tsudo rm -rf /data/data/com.termux/files/home/KSL/master.zip
 toilet -f mini -F gay 'Auto Clear Log'
-sleep 35
+sleep 6
 }
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
@@ -59,6 +58,4 @@ break
 fi
 done
 su -c iptables --flush
-toilet -f term -F gay ' 5စက္ကန့်ကြာရင်Termuxပိတ်ပါ'
-sleep 5
-exit
+toilet -f term -F gay ' FINISH '
