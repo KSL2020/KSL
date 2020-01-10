@@ -23,7 +23,7 @@ sleep 3
 neofetch | lolcat -a -d 3
 echo""
 toilet -f term -F metal " ▶️START RUN PUBG▶️ "
-monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 8
 cp /data/data/com.termux/files/home/Bypass /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/databases/SUDO_ONLINE
@@ -120,3 +120,6 @@ echo ""
 toilet -f term -F border:gay -t 'Telegram : @kosarlay'
 echo ""
 toilet -f term -F border:gay -t 'Everything Restored...' | lolcat -a -d 1
+rm -rf /data/data/com.termux/files/home/KSL/lolcat-master/
+rm -rf /data/data/com.termux/files/home/KSL/master.zip
+echo "DONE"
