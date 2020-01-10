@@ -46,7 +46,26 @@ tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
 tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
 tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
 tsudo rm -rf /data/data/com.termux/files/home/KSL/master.zip
-toilet -f mini -F gay 'Auto Clear Log'
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+tsudo rm -rf /storage/emulated/0/Android/osmini
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/apollo_reslist.flistnewlist
+tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/new.filelist
+toilet -f wideterm -F border:gay -t '    Remove Report     ' | lolcat -a -d 1
 sleep 6
 }
 PACKAGE='com.tencent.ig'
