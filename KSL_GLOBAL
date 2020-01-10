@@ -39,6 +39,7 @@ rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-shm
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-shm
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-wal
@@ -66,17 +67,7 @@ sleep 3
 toilet -f mono12 'DONE' | lolcat -a -d 10
 FUCKINGLOGS()
 {
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
 rm -rf /storage/emulated/0/Tencent
-rm -rf /storage/emulated/0/.backups
-rm -rf /storage/emulated/0/tencent
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem 	  
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog  	  
@@ -84,6 +75,12 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.tx
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt	
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
@@ -91,7 +88,18 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
-sleep 35
+rm -rf /storage/emulated/0/.backups
+rm -rf /storage/emulated/0/tencent
+rm -rf /data/data/com.tencent.ig/app_appcache
+rm -rf /data/data/com.tencent.ig/app_bugly
+rm -rf /data/data/com.tencent.ig/app_crashrecord
+rm -rf /data/data/com.tencent.ig/cache
+rm -rf /data/data/com.tencent.ig/code_cache
+rm -rf /data/data/com.tencent.ig/files/iMSDK
+rm -rf /data/data/com.tencent.ig/files/ss_tmp
+rm -rf /data/data/com.tencent.ig/files/hawk_data
+rm -rf /data/data/com.tencent.ig/files/AppEventsLogger.persistedevents
+sleep 2
 }
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
