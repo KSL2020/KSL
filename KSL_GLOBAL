@@ -12,61 +12,93 @@ cd lolcat-master/bin/
 gem install lolcat
 clear
 toilet -f mono12 -F gay -t 'K S L' | lolcat -a -d 1
-toilet -f wideterm -F border:gay -t '    KSL GAMING    ' | lolcat -a -d 1
+toilet -f wideterm -F border:gay -t ' KSL_GAMING ' | lolcat -a -d 1
 echo ""
-toilet -f mini -F border:gay -t ' GLOBAL ' | lolcat -a -d 3
+toilet -f wideterm -F border:gay -t 'GLOBAL BYPASS' | lolcat -a -d 3
 echo ""
 echo ""
-toilet -f term -F gay '  Checking Your Phone Device '
+toilet -f term -F gay ' ဖုန်းdevice infoကိုစစ်နေသည်,'
 echo ""
+sleep 3
 neofetch | lolcat -a -d 3
 echo""
-toilet -f term -F metal " PLEASE WAIT "
-echo " "
+toilet -f term -F metal " ▶️START RUN PUBG▶️ "
+monkey -p com.tencent.ig -c android.intent.category.LAUNCHER 1
+sleep 8
+cp /data/data/com.termux/files/home/Bypass /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
+cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/databases/SUDO_ONLINE
+cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/files/SUDO_ONLINE
+chmod -R 660 /data/data/com.tencent.ig/databases/SUDO_ONLINE
+chmod -R 660 /data/data/com.tencent.ig/files/SUDO_ONLINE
+chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
+chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
+chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
+chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
+chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
+sleep 2
+rm -rf /data/data/com.tencent.ig/lib
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
+rm -rf /data/data/com.tencent.ig/databases/bugly_db_
+rm -rf /data/data/com.tencent.ig/databases/bugly_db_-shm
+rm -rf /data/data/com.tencent.ig/databases/bugly_db_-wal
+sleep 3
+rm -rf /data/data/com.tencent.ig/files/__tsecache.dat
+rm -rf /data/data/com.tencent.ig/files/gcTestConfig.txt
+rm -rf /data/data/com.tencent.ig/files/hawk_data
+rm -rf /data/data/com.tencent.ig/files/hawk_data_init
+rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
+rm -rf /data/data/com.tencent.ig/files/tpnlcache.data
+rm -rf /data/data/com.tencent.ig/files/iMSDK
+sleep 3
 toilet -f mono12 'DONE' | lolcat -a -d 10
-toilet -f wideterm -F border:gay -t '    START ANTIBAN     ' | lolcat -a -d 1
-toilet -f term -F gay ' First , Test Guest Account'
-toilet -f term -F gay ' JOIN @Kosarlay_Gaming'
-toilet -f term -F gay ' Play Safe '
-toilet -f term -F metal:border 'Contacts Phone 09450885066 '
-echo ""
-toilet -f term -F border:gay -t ' Start Clear Log' | lolcat -a -d 1
 FUCKINGLOGS()
 {
-tsudo rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
-tsudo rm -rf /data/data/com.tencent.ig/files/tcj_hash.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tcj_up_cache.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/comm.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/config3.xml
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_tcj.dat
-tsudo rm -rf /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
-tsudo rm -rf /data/data/com.termux/files/home/KSL/master.zip
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
-tsudo rm -rf /storage/emulated/0/Android/osmini
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/apollo_reslist.flistnewlist
-tsudo rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/new.filelist
-toilet -f wideterm -F border:gay -t '    Remove Report     ' | lolcat -a -d 1
-sleep 6
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/new.filelist
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
+rm -rf /storage/emulated/0/Tencent
+rm -rf /storage/emulated/0/.backups
+rm -rf /storage/emulated/0/tencent
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem 	  
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog  	  
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt	
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+sleep 35
 }
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
@@ -76,5 +108,15 @@ if [ ! $(pidof $PACKAGE) ]; then
 break
 fi
 done
+toilet -f wideterm -F border -t ' Start Restore Pubg Data ' | lolcat -a -d 5
+echo ""
+pm install -r /data/app/com.tencent.ig*/base.apk
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
+rm -rf /data/data/com.tencent.ig/databases/SUDO_ONLINE
+rm -rf /data/data/com.tencent.ig/files/SUDO_ONLINE
 su -c iptables --flush
-toilet -f term -F gay ' FINISH '
+toilet -f term -F metal:border ' contacts t.me/kosarlay ph-09450885066!'
+echo ""
+toilet -f term -F border:gay -t 'Telegram : @kosarlay'
+echo ""
+toilet -f term -F border:gay -t 'Everything Restored...' | lolcat -a -d 1
