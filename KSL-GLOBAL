@@ -1,4 +1,4 @@
-echo "*******************************"
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 echo "  copy paster fuck you  "
 echo "  😡😡😡😡😡😡😡😡😡 "
 echo " PUBG MOBILE GLOBAL VERSION 0.16.5 "
@@ -22,7 +22,7 @@ cp /data/data/com.termux/files/home/Bypass /storage/emulated/0/Android/data/com.
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/databases/SUDO_ONLINE
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/files/SUDO_ONLINE
 echo " ██ 20% "
-echo
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 chmod -R 660 /data/data/com.tencent.ig/databases/SUDO_ONLINE
 chmod -R 660 /data/data/com.tencent.ig/files/SUDO_ONLINE
 chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
@@ -31,7 +31,7 @@ chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
 echo " ████ 40%                     "
-echo
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 rm -rf /data/data/com.tencent.ig/lib
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
@@ -55,7 +55,7 @@ rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-shm
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
 echo " ████████ 60%                 "
-echo
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-shm
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-wal
@@ -67,10 +67,10 @@ rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
 rm -rf /data/data/com.tencent.ig/files/tpnlcache.data
 rm -rf /data/data/com.tencent.ig/files/iMSDK
 echo " █████████████ 80%              "
-echo
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 sleep 3
 echo " ████████████████████████ 100%.               "
-echo
+echo "★★★★★★★★★★★★★★★★★★★★★★"
 echo "Antiban On"
 FUCKINGLOGS()
 {
@@ -125,3 +125,4 @@ rm -rf /data/data/com.tencent.ig/files/SUDO_ONLINE
 su -c iptables --flush
 sleep 5
 echo "TERMUX EXIT"
+echo "★★★★★★★★★★★★★★★★★★★★★★"
