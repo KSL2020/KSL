@@ -118,6 +118,4 @@ echo ""
 toilet -f term -F border:gay -t 'Telegram : t.me/kosarlay'
 echo ""
 toilet -f term -F border:gay -t 'Everything Restored...' | lolcat -a -d 1
-rm -rf /data/data/com.termux/files/home/KSL/lolcat-master/
-rm -rf /data/data/com.termux/files/home/KSL/master.zip
 echo "DONE"
