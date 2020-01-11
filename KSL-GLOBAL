@@ -1,27 +1,28 @@
-apt update && apt upgrade
-apt install figlet -y
-apt install neofetch -y
-apt install toilet -y
-apt install wget -y
-apt install ruby -y
-apt install tsu -y
-apt install unzip -y
-wget https://github.com/busyloop/lolcat/archive/master.zip
-unzip master.zip
-cd lolcat-master/bin/
-gem install lolcat
-clear
-toilet -f mono12 -F gay -t 'K S L' | lolcat -a -d 1
-toilet -f wideterm -F border:gay -t ' KSL_GAMING ' | lolcat -a -d 1
-echo ""
-toilet -f wideterm -F border:gay -t 'GLOBAL BYPASS' | lolcat -a -d 3
-echo""
-toilet -f term -F metal " ▶️START RUN PUBG▶️ "
+echo "*******************************"
+echo "  copy paster fuck you  "
+echo "  😡😡😡😡😡😡😡😡😡 "
+echo " PUBG MOBILE GLOBAL VERSION 0.16.5 "
+echo " "
+echo " ╔╗╔═╗╔═══╗╔╗─── "
+echo " ║║║╔╝║╔═╗║║║─── "
+echo " ║╚╝╝─║╚══╗║║─── "
+echo " ║╔╗║─╚══╗║║║─╔╗"
+echo " ║║║╚╗║╚═╝║║╚═╝║"
+echo " ╚╝╚═╝╚═══╝╚═══╝"
+echo "╔═══╗ ╔═══╗ ╔═╗╔═╗ ╔══╗ ╔═╗─╔╗ ╔═══╗"
+echo "║╔═╗║ ║╔═╗║ ║║╚╝║║ ╚╣─╝ ║║╚╗║║ ║╔═╗║"
+echo "║║─╚╝ ║╔═╗║ ║╔╗╔╗║ ─║║─ ║╔╗╚╝║ ║║─╚╝"
+echo "║║╔═╗ ║╚═╝║ ║║║║║║ ─║║─ ║║╚╗║║ ║║╔═╗ "
+echo "║╚╩═║ ║╔═╗║ ║║║║║║ ╔╣─╗ ║║─║║║ ║╚╩═║ "
+echo "╚═══╝ ╚╝─╚╝ ╚╝╚╝╚╝ ╚══╝ ╚╝─╚═╝ ╚═══╝ "
+echo " ▶️START RUN PUBG▶️ "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-sleep 10
+sleep 8
 cp /data/data/com.termux/files/home/Bypass /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/databases/SUDO_ONLINE
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/files/SUDO_ONLINE
+echo " ██ 20% "
+echo
 chmod -R 660 /data/data/com.tencent.ig/databases/SUDO_ONLINE
 chmod -R 660 /data/data/com.tencent.ig/files/SUDO_ONLINE
 chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
@@ -29,6 +30,8 @@ chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
+echo " ████ 40%                     "
+echo
 rm -rf /data/data/com.tencent.ig/lib
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
@@ -51,6 +54,8 @@ rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-shm
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
+echo " ████████ 60%                 "
+echo
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-shm
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-wal
@@ -61,8 +66,11 @@ rm -rf /data/data/com.tencent.ig/files/hawk_data_init
 rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
 rm -rf /data/data/com.tencent.ig/files/tpnlcache.data
 rm -rf /data/data/com.tencent.ig/files/iMSDK
+echo " █████████████ 80%              "
 sleep 3
-toilet -f mono12 'DONE' | lolcat -a -d 10
+echo " ████████████████████████ 100%.               "
+echo
+echo "Antiban On"
 FUCKINGLOGS()
 {
 rm -rf /storage/emulated/0/Tencent
@@ -106,18 +114,14 @@ if [ ! $(pidof $PACKAGE) ]; then
 break
 fi
 done
-toilet -f wideterm -F border -t ' Start Restore Pubg Data ' | lolcat -a -d 5
-echo ""
+echo "PUBG stopped running"
+echo 
+echo " START RESTORE PUBG DATA "
 pm install -r /data/app/com.tencent.ig*/base.apk
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 rm -rf /data/data/com.tencent.ig/databases/SUDO_ONLINE
 rm -rf /data/data/com.tencent.ig/files/SUDO_ONLINE
 su -c iptables --flush
-toilet -f term -F metal:border ' contacts ph-09450885066!'
-echo ""
-toilet -f term -F border:gay -t 'Telegram : t.me/kosarlay'
-echo ""
-rm -rf /data/data/com.termux/files/home/KSL/lolcat-master
-rm -rf /data/data/com.termux/files/home/KSL/master.zip
-toilet -f term -F border:gay -t 'Everything Restored...' | lolcat -a -d 1
-echo "DONE"
+sleep 5
+echo "TERMUX EXIT"
+am force-stop com.termux
