@@ -67,6 +67,7 @@ rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
 rm -rf /data/data/com.tencent.ig/files/tpnlcache.data
 rm -rf /data/data/com.tencent.ig/files/iMSDK
 echo " █████████████ 80%              "
+echo
 sleep 3
 echo " ████████████████████████ 100%.               "
 echo
