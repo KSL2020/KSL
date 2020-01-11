@@ -124,4 +124,3 @@ rm -rf /data/data/com.tencent.ig/files/SUDO_ONLINE
 su -c iptables --flush
 sleep 5
 echo "TERMUX EXIT"
-am force-stop com.termux
