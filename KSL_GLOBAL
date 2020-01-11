@@ -18,7 +18,7 @@ toilet -f wideterm -F border:gay -t 'GLOBAL BYPASS' | lolcat -a -d 3
 echo""
 toilet -f term -F metal " ▶️START RUN PUBG▶️ "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-sleep 8
+sleep 10
 cp /data/data/com.termux/files/home/Bypass /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/databases/SUDO_ONLINE
 cp /data/data/com.termux/files/home/KSL_ANTIBAN /data/data/com.tencent.ig/files/SUDO_ONLINE
@@ -29,7 +29,6 @@ chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
 chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
-sleep 2
 rm -rf /data/data/com.tencent.ig/lib
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
@@ -55,7 +54,6 @@ rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-shm
 rm -rf /data/data/com.tencent.ig/databases/bugly_db_-wal
-sleep 3
 rm -rf /data/data/com.tencent.ig/files/__tsecache.dat
 rm -rf /data/data/com.tencent.ig/files/gcTestConfig.txt
 rm -rf /data/data/com.tencent.ig/files/hawk_data
@@ -83,7 +81,6 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
@@ -99,7 +96,7 @@ rm -rf /data/data/com.tencent.ig/files/iMSDK
 rm -rf /data/data/com.tencent.ig/files/ss_tmp
 rm -rf /data/data/com.tencent.ig/files/hawk_data
 rm -rf /data/data/com.tencent.ig/files/AppEventsLogger.persistedevents
-sleep 2
+sleep 4
 }
 PACKAGE='com.tencent.ig'
 while [ $(pidof $PACKAGE) ]
