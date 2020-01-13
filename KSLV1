@@ -128,6 +128,7 @@ echo " START RESTORE PUBG DATA "
 pm install -r /data/app/com.tencent.ig*/base.apk
 su -c iptables --flush
 chmod -R 660 /data/data/com.tencent.ig/databases/iMSDK.db 
+chmod -R 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 sleep 5
 echo "╔══╗╔═╦╗╔══╗╔══╗╔══╗╔══╗╔═╦╗───╔═╗╔══╗╔══╗"
 echo "║╔╗║║║║║╚╗╔╝╚║║╝║╔╗║║╔╗║║║║║───║║║║═╦╝║═╦╝"
