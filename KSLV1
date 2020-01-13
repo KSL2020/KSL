@@ -15,18 +15,17 @@ echo "║║─╚╝ ║╔═╗║ ║╔╗╔╗║ ─║║─ ║╔╗�
 echo "║║╔═╗ ║╚═╝║ ║║║║║║ ─║║─ ║║╚╗║║ ║║╔═╗ "
 echo "║╚╩═║ ║╔═╗║ ║║║║║║ ╔╣─╗ ║║─║║║ ║╚╩═║ "
 echo "╚═══╝ ╚╝─╚╝ ╚╝╚╝╚╝ ╚══╝ ╚╝─╚═╝ ╚═══╝ "
-cp -R /data/data/com.termux/files/home/SEASON11/SrcVersion.ini /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
-chmod -R 664 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
+chmod -R 500 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+cp -R /data/data/com.termux/files/home/SEASON11/SrcVersion.ini /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
 echo " ▶️START RUN PUBG▶️ "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 10
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11464.pak
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11464.pak
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak
 echo " ██ 20% "
 echo "★★★★★★★★★★★★★★★★★★★★★★"
-chmod -R 550 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
@@ -81,28 +80,28 @@ echo "╚╝╚╝╚╩═╝─╚╝─╚══╝╚══╝╚╝╚╝�
 FUCKINGLOGS()
 {
 rm -rf /storage/emulated/0/Tencent
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem 	  
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog  	  
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt	
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
-rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
+rm -rf /sdcard/Android/data/com.tencent.ig/cache
+rm -rf /sdcard/Android/data/com.tencent.ig/files/ca-bundle.pem 	  
+rm -rf /sdcard/Android/data/com.tencent.ig/files/tbslog  	  
+rm -rf /sdcard/Android/data/com.tencent.ig/files/login-identifier.txt
+rm -rf /sdcard/Android/data/com.tencent.ig/files/cacheFile.txt	
+rm -rf /sdcard/Android/data/com.tencent.ig/files/vmpcloudconfig.json
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
 rm -rf /storage/emulated/0/.backups
 rm -rf /storage/emulated/0/tencent
 rm -rf /data/data/com.tencent.ig/app_appcache
@@ -131,7 +130,6 @@ pm install -r /data/app/com.tencent.ig*/base.apk
 su -c iptables --flush
 chmod -R 660 /data/data/com.tencent.ig/databases/iMSDK.db 
 chmod -R 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-
 sleep 5
 echo "╔══╗╔═╦╗╔══╗╔══╗╔══╗╔══╗╔═╦╗───╔═╗╔══╗╔══╗"
 echo "║╔╗║║║║║╚╗╔╝╚║║╝║╔╗║║╔╗║║║║║───║║║║═╦╝║═╦╝"
