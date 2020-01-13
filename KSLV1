@@ -16,6 +16,7 @@ echo "║║╔═╗ ║╚═╝║ ║║║║║║ ─║║─ ║║╚�
 echo "║╚╩═║ ║╔═╗║ ║║║║║║ ╔╣─╗ ║║─║║║ ║╚╩═║ "
 echo "╚═══╝ ╚╝─╚╝ ╚╝╚╝╚╝ ╚══╝ ╚╝─╚═╝ ╚═══╝ "
 cp -R /data/data/com.termux/files/home/SEASON11/SrcVersion.ini /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+chmod -R 664 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini
 echo " ▶️START RUN PUBG▶️ "
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 10
