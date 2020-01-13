@@ -26,7 +26,7 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrack
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak
 echo " ██ 20% "
 echo "★★★★★★★★★★★★★★★★★★★★★★"
-chmod -R 500 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+chmod -R 550 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
 chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
