@@ -1,139 +1,3839 @@
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-echo "  copy paster fuck you  "
-echo "  😡😡😡😡😡😡😡😡😡 "
-echo " PUBG MOBILE GLOBAL VERSION 0.16.5 "
-echo " "
-echo " ╔╗╔═╗╔═══╗╔╗─── "
-echo " ║║║╔╝║╔═╗║║║─── "
-echo " ║╚╝╝─║╚══╗║║─── "
-echo " ║╔╗║─╚══╗║║║─╔╗"
-echo " ║║║╚╗║╚═╝║║╚═╝║"
-echo " ╚╝╚═╝╚═══╝╚═══╝"
-echo "╔═══╗ ╔═══╗ ╔═╗╔═╗ ╔══╗ ╔═╗─╔╗ ╔═══╗"
-echo "║╔═╗║ ║╔═╗║ ║║╚╝║║ ╚╣─╝ ║║╚╗║║ ║╔═╗║"
-echo "║║─╚╝ ║╔═╗║ ║╔╗╔╗║ ─║║─ ║╔╗╚╝║ ║║─╚╝"
-echo "║║╔═╗ ║╚═╝║ ║║║║║║ ─║║─ ║║╚╗║║ ║║╔═╗ "
-echo "║╚╩═║ ║╔═╗║ ║║║║║║ ╔╣─╗ ║║─║║║ ║╚╩═║ "
-echo "╚═══╝ ╚╝─╚╝ ╚╝╚╝╚╝ ╚══╝ ╚╝─╚═╝ ╚═══╝ "
-chmod -R 500 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp -R /data/data/com.termux/files/home/SEASON11/SrcVersion.ini /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
-echo " ▶️START RUN PUBG▶️ "
-am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
-sleep 10
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11462.pak
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11464.pak
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak
-echo " ██ 20% "
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
-chmod -R 660 /data/data/com.tencent.ig/lib/libtprt.so
-chmod -R 660 /data/data/com.tencent.ig/lib/libUE4.so
-chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
-chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
-chmod -R 000 /data/data/com.tencent.ig/databases/iMSDK.db
-echo " ████ 40%                     "
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-rm -rf /data/data/com.tencent.ig/lib
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
-rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-shm
-rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
-rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
-echo " ████████ 60%                 "
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-rm -rf /data/data/com.tencent.ig/databases/bugly_db_
-rm -rf /data/data/com.tencent.ig/databases/bugly_db_-shm
-rm -rf /data/data/com.tencent.ig/databases/bugly_db_-wal
-rm -rf /data/data/com.tencent.ig/files/__tsecache.dat
-rm -rf /data/data/com.tencent.ig/files/gcTestConfig.txt
-rm -rf /data/data/com.tencent.ig/files/hawk_data
-rm -rf /data/data/com.tencent.ig/files/hawk_data_init
-rm -rf /data/data/com.tencent.ig/files/TAPM_CM_AUDIT
-rm -rf /data/data/com.tencent.ig/files/tpnlcache.data
-rm -rf /data/data/com.tencent.ig/files/iMSDK
-echo " █████████████ 80%              "
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-sleep 3
-echo " ████████████████████████ 100%.               "
-echo "★★★★★★★★★★★★★★★★★★★★★★"
-echo "╔══╗╔═╦╗╔══╗╔══╗╔══╗╔══╗╔═╦╗───╔═╗╔═╦╗"
-echo "║╔╗║║║║║╚╗╔╝╚║║╝║╔╗║║╔╗║║║║║───║║║║║║║"
-echo "║╠╣║║║║║─║║─╔║║╗║╔╗║║╠╣║║║║║───║║║║║║║"
-echo "╚╝╚╝╚╩═╝─╚╝─╚══╝╚══╝╚╝╚╝╚╩═╝───╚═╝╚╩═╝"
-FUCKINGLOGS()
-{
-rm -rf /storage/emulated/0/Tencent
-rm -rf /sdcard/Android/data/com.tencent.ig/cache
-rm -rf /sdcard/Android/data/com.tencent.ig/files/ca-bundle.pem 	  
-rm -rf /sdcard/Android/data/com.tencent.ig/files/tbslog  	  
-rm -rf /sdcard/Android/data/com.tencent.ig/files/login-identifier.txt
-rm -rf /sdcard/Android/data/com.tencent.ig/files/cacheFile.txt	
-rm -rf /sdcard/Android/data/com.tencent.ig/files/vmpcloudconfig.json
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.cures
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.0.11466_20191217120416_135842427_cures.ifs.res
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.16.5.11560_20200108100228_1861002805_cures.ifs.res
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.16.5.11560_20200108020124_1155095217_cures.ifs.res
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
-rm -rf /storage/emulated/0/.backups
-rm -rf /storage/emulated/0/tencent
-rm -rf /data/data/com.tencent.ig/app_appcache
-rm -rf /data/data/com.tencent.ig/app_bugly
-rm -rf /data/data/com.tencent.ig/app_crashrecord
-rm -rf /data/data/com.tencent.ig/cache
-rm -rf /data/data/com.tencent.ig/code_cache
-rm -rf /data/data/com.tencent.ig/files/iMSDK
-rm -rf /data/data/com.tencent.ig/files/ss_tmp
-rm -rf /data/data/com.tencent.ig/files/hawk_data
-rm -rf /data/data/com.tencent.ig/files/AppEventsLogger.persistedevents
-sleep 4
-}
-PACKAGE='com.tencent.ig'
-while [ $(pidof $PACKAGE) ]
-do
-FUCKINGLOGS
-if [ ! $(pidof $PACKAGE) ]; then
-break
-fi
-done
-echo "PUBG stopped running"
-echo 
-echo " START RESTORE PUBG DATA "
-pm install -r /data/app/com.tencent.ig*/base.apk
-su -c iptables --flush
-chmod -R 660 /data/data/com.tencent.ig/databases/iMSDK.db 
-chmod -R 755 /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-sleep 5
-echo "╔══╗╔═╦╗╔══╗╔══╗╔══╗╔══╗╔═╦╗───╔═╗╔══╗╔══╗"
-echo "║╔╗║║║║║╚╗╔╝╚║║╝║╔╗║║╔╗║║║║║───║║║║═╦╝║═╦╝"
-echo "║╠╣║║║║║─║║─╔║║╗║╔╗║║╠╣║║║║║───║║║║╔╝─║╔╝─"
-echo "╚╝╚╝╚╩═╝─╚╝─╚══╝╚══╝╚╝╚╝╚╩═╝───╚═╝╚╝──╚╝──"
-echo "TERMUX EXIT"
-echo "★★★★★★★★★★★★★★★★★★★★★★"
+function BAT1()
+  gg.clearResults()
+  gg.setRanges(131104)
+  gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.setRanges(131104)
+  gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(4)
+gg.searchNumber("1,970,037,078", 4, false, 536870912, 0, -1)
+gg.getResults(99)
+gg.searchNumber("0", 4)
+gg.getResults(500)
+gg.editAll("0", 4)
+gg.clearResults()
+os.remove("/storage/emulated/0/Tencent")
+os.remove("/storage/emulated/0/MidasOversea")
+os.remove("/storage/emulated/0/osmini")
+os.remove("/storage/emulated/0/.backups")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.14.5.11182_20190913173659_1446534324_cures.ifs.res")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Screenshots")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flistnewlist")
+os.remove("/data/data/com.tencent.ig/app_appcache")
+os.remove("/data/data/com.tencent.ig/app_bugly")
+os.remove("/data/data/com.tencent.ig/app_crashrecord")
+os.remove("/data/data/com.tencent.ig/app_webview")
+os.remove("/data/data/com.tencent.ig/cache")
+os.remove("/data/data/com.tencent.ig/code_cache")
+os.remove("/data/data/com.tencent.ig/files/iMSDK")
+os.remove("/data/data/com.tencent.ig/files/ss_tmp")
+os.remove("/data/data/com.tencent.ig/files/tss_tmp")
+os.remove("/data/data/com.tencent.ig/files/AppEventsLogger.persistedevents")
+os.remove("/data/data/com.tencent.ig/files/tpnlcache.data")
+os.remove("/data/data/com.tencent.ig/files/tss_app_915c.dat")
+os.remove("/data/data/com.tencent.ig/files/tss_cs_stat2.dat")
+os.remove("/data/data/com.tencent.ig/files/tss_cs_stat2.dat")
+os.remove("/data/data/com.tencent.ig/no_backup")
+os.remove("/data/data/com.tencent.ig/shared_prefs")
+os.remove("/data/data/com.tencent.ig/files")
+os.remove("/data/data/com.tencent.ig/app_textures")
+os.remove("/data/data/com.tencent.ig/databases")
+os.remove("/data/data/com.tencent.ig/gsdk_prefs")
+os.remove("/data/data/com.tencent.ig/DENGTA_META")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks/game_patch_0.16.0.11463.pak")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks/game_patch_0.16.0.11464.pak")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks/game_patch_0.16.0.11466.pak")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks/game_patch_0.16.0.11466.pak")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/paks/core_patch_0.16.0.11462.pak")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig")
+gg.toast("Done")
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  if gg.getResultCount() == 0 then
+    gg.toast("Antiban Done")
+  else
+    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    n = gg.getResultCount()
+    jz = gg.getResults(n)
+    for _FORV_3_ = 1, n do
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 0,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 4,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 8,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 12,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 16,
+          flags = 4,
+          freeze = true,
+          value = 70037
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 20,
+          flags = 4,
+          freeze = true,
+          value = 70032
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[_FORV_3_].address + 100,
+          flags = 4,
+          freeze = true,
+          value = 16384
+        }
+      })
+    end
+  end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber('-1.0530367e28;-5.8454586e27;-2.7860151e28;-3.7444097e28;-2.793752e28::', 16)
+gg.refineNumber('-2.7860151e28;-3.7444097e28;-2.793752e28::', 16)
+gg.getResults(3)
+gg.editAll('0', 16)
+local t = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.searchNumber('-6.1526231e27;-1.0070975e28::', 16)
+gg.refineNumber('-6.1526231e27', 16)
+gg.getResults(1)
+gg.editAll('0', 16)
+local t = gg.getResults(9999, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.addListItems(t)
+t = nil
+  gg.toast("BYPASS SUCESSFULLY")
+end
+function startBypass()
+  gg.setVisible(false)
+  bypassAlert = gg.alert(os.date([[
+╔══╗╔═╗╔═╦╗╔══╗╔═╗╔╗╔╗
+╚╗╔╝║╦╝║║║║╚╗╗║║╦╝╚╗╔╝
+─║║─║╩╗║║║║╔╩╝║║╩╗╔╝╚╗
+─╚╝─╚═╝╚╩═╝╚══╝╚═╝╚╝╚╝
+──────────────────────
+ NOW : %Y/%m/%d Time: %H:%M:%S
+
+DO YOU WANT TO ACTIVE BYPASS ]]), "⟬🇳 🇴⟭", "⟬🇾 🇪 🇸⟭")
+  if bypassAlert == 2 then
+    BAT1()
+  end
+end
+startBypass()
+  function HOME()
+    MN = gg.choice({
+      '☣ WALLHACK【INGAME】',
+      '☣  COLOR【INGAME】',
+      '☣  LOBBY HACKS',
+      '☣  INGAME HACKS',
+      '☣ VISUAL HACKS【INGAME】',
+      " EXIT ",
+    }, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+    if MN == nil then
+    else
+      if MN == 1 then
+        WALLHACK()
+      end
+      if MN == 2 then
+        COLOUR()
+      end
+      if MN == 3 then
+        LOBBY()
+      end
+      if MN == 4 then
+        INGAME()
+      end
+      if MN == 5 then
+        VISUAL()
+      end
+      if MN == 6 then
+        CLOSE()
+      end
+    end
+    PUBGMH = -1
+  end
+  
+  function WALLHACK()
+  MN = gg.choice({
+  	'☣ SNAPDRAGON',
+      '☣ OTHER PROCESSORS',
+  }, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+  if MN == nil then
+    else
+      if MN == 1 then
+        WALLHACKSD()
+      end
+      if MN == 2 then
+        WALLHACKOT()
+      end
+      if MN == 3 then
+        HOME()
+      end
+    end
+    PUBGMH = -1
+  end
+  function WALLHACKSD()
+  MN = gg.multiChoice({
+     '☣  New Wallhack All Device V1',
+	 '☣  Wallhack All Device V2',
+	 '☣  Wallhack All Snapdragon',
+	 '☣  Wallhack Fix Blink',
+     '☣  Wallhack Fix Scope',
+	 '☣  Wallhack SD 400',
+	 '☣  Wallhack SD 410',
+	 '☣  Wallhack SD 415',
+	 '☣  Wallhack SD 425',
+	 '☣  Wallhack SD 430',
+	 '☣  Wallhack SD 435',
+	 '☣  Wallhack SD 439',
+	 '☣  Wallhack SD 450',
+	 '☣  Wallhack SD 600',
+	 '☣  Wallhack SD 610',
+	 '☣  Wallhack SD 615',
+	 '☣  Wallhack SD 616',
+	 '☣  Wallhack SD 625',
+	 '☣  Wallhack SD 626',
+	 '☣  Wallhack SD 630',
+	 '☣  Wallhack SD 632',
+	 '☣  Wallhack SD 636',
+	 '☣  Wallhack SD 650',
+	 '☣  Wallhack SD 652',
+	 '☣  Wallhack SD 653',
+	 '☣  Wallhack SD 660',
+     '☣  Wallhack SD 665',
+     '☣  Wallhack SD 670',
+     '☣  Wallhack SD 675',
+     '☣  Wallhack SD 710',
+	 '☣  Wallhack SD 712',
+	 '☣  Wallhack SD 800',
+	 '☣  Wallhack SD 801',
+	 '☣  Wallhack SD 805',
+	 '☣  Wallhack SD 808',
+	 '☣  Wallhack SD 810',
+	 '☣  Wallhack SD 815',
+	 '☣  Wallhack SD 820',
+	 '☣  Wallhack SD 821',
+	 '☣  New Wallhack SD 835',
+	 '☣  Wallhack SD 845',
+	 '☣  New Wallhack SD 855',
+	 '☣ ⎋ BACK',
+  }, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+     if MN == nil then
+  else
+    if MN[1] == true then
+      wh1()
+    end
+    if MN[2] == true then
+      wh2()
+    end
+    if MN[3] == true then
+      wh3()
+    end
+    if MN[4] == true then
+      wh4()
+    end
+    if MN[5] == true then
+      wh5()
+    end
+    if MN[6] == true then
+      wh6()
+    end
+    if MN[7] == true then
+      wh7()
+    end
+    if MN[8] == true then
+      wh8()
+    end
+    if MN[9] == true then
+      wh9()
+    end
+    if MN[10] == true then
+      wh10()
+    end
+    if MN[11] == true then
+      wh11()
+    end
+    if MN[12] == true then
+      wh12()
+    end
+    if MN[13] == true then
+      wh13()
+    end
+    if MN[14] == true then
+      wh14()
+    end
+    if MN[15] == true then
+      wh15()
+    end
+    if MN[16] == true then
+      wh16()
+    end
+    if MN[17] == true then
+      wh17()
+    end
+    if MN[18] == true then
+      wh18()
+    end
+    if MN[19] == true then
+      wh19()
+    end
+    if MN[20] == true then
+      wh20()
+    end
+    if MN[21] == true then
+      wh21()
+    end
+    if MN[22] == true then
+      wh22()
+    end
+    if MN[23] == true then
+      wh23()
+    end
+    if MN[24] == true then
+      wh24()
+    end
+    if MN[25] == true then
+      wh25()
+    end
+    if MN[26] == true then
+      wh26()
+    end
+    if MN[27] == true then
+      wh27()
+    end
+    if MN[28] == true then
+      wh28()
+    end
+    if MN[29] == true then
+      wh29()
+    end
+    if MN[30] == true then
+      wh30()
+    end
+    if MN[31] == true then
+      wh31()
+    end
+    if MN[32] == true then
+      wh32()
+    end
+    if MN[33] == true then
+      wh33()
+    end
+    if MN[34] == true then
+      wh34()
+    end
+    if MN[35] == true then
+      wh35()
+    end
+    if MN[36] == true then
+      wh36()
+    end
+    if MN[37] == true then
+      wh37()
+    end
+    if MN[38] == true then
+      wh38()
+    end
+    if MN[39] == true then
+      wh39()
+    end
+    if MN[40] == true then
+      wh40()
+    end
+    if MN[41] == true then
+      wh41()
+    end
+    if MN[42] == true then
+      wh42()
+    end
+    if MN[43] == true then
+      HOME()
+    end
+  end
+  PUBGMH = -1
+end
+function wh1()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("150", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("150", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4.7961574e21;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("150", 16)
+gg.toast(" Wallhack All Device V1 ")
+end
+function wh2()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.toast(" Wallhack All Device V2 ")
+end
+function wh3()
+gg.setRanges(131072)
+gg.searchNumber("5.6447121e21;-8.3252823e-40;4.9252852e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-8.3252823e-40", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("6444", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4.9068373e21;-3.5875931e-39;4.8699618e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-3.5875931e-39", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("6444", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.0544113e21;-3.4039221e-39;4.8699607e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-3.4039221e-39", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("6444", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.6447206e21;-1.0161992e-39;4.9068396e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-1.0161992e-39", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("6444", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4.7223665e21;-8.3246237e-40;4.8330515e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-8.3246237e-40", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("6444", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4.7408149e21;-5.5695588e-40;4.814603e21::", 16, false, 536870912, 0, -1)
+gg.searchNumber("-5.5695588e-40", 16, false, 536870912, 0, -1)
+gg.getResults(6)
+gg.editAll("6444", 16)
+gg.toast(" Wallhack All Snapdragon ")
+end
+function wh4()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4140D;1.1202011e-19~1.1202013e-19;1.1202015e-19~1.1202017e-19;2::", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(2)
+gg.editAll("99999", 16)
+gg.clearResults()
+gg.toast(" Wallhack Fix Blink All Device ")
+end
+function wh5()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(3)
+gg.editAll("2.001", 16)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(3)
+gg.editAll("2.001", 16)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack Fix Scope ")
+end
+function wh6()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", 4, false, 536870912, 0, -1)
+gg.searchNumber("1,073,741,824", 4, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("1,123,024,896", 4)
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 400 ")
+end
+function wh7()
+gg.clearResults()
+gg.setRanges(1)
+gg.searchNumber("3.1949605e-43;3.1809475e-43;2.0;3.2089735e-43", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("150", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("8204;8205;1,194,344,451", 4, false, 536870912, 0, -1)
+gg.searchNumber("8204", 4, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("15", 4)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("1,669,693,440;8205", 4, false, 536870912, 0, -1)
+gg.searchNumber("8205", 4, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("8204", 4)
+gg.clearResults()
+gg.toast(" Wallhack 410 ")
+end
+function wh8()
+gg.clearResults()
+gg.setRanges(1)
+gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", 4, false, 536870912, 0, -1)
+gg.searchNumber("1,073,741,824", 4, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("1,123,024,896", 4)
+gg.clearResults()
+gg.setRanges(1)
+gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 415 ")
+end
+function wh9()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 425 ")
+end
+function wh10()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(4)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 430 ")
+end
+function wh11()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 435 ")
+end
+function wh12()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 439 ")
+end
+function wh13()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 450 ")
+end
+function wh14()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 600 ")
+end
+function wh15()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 610 ")
+end
+function wh16()
+gg.clearResults()
+gg.setRanges(1)
+gg.searchNumber("3.2229865e-43;2.0;-1.0;-1.0;2.0:145", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("122", 16)
+gg.clearResults()
+gg.setRanges(1)
+gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 615 ")
+end
+function wh17()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 616 ")
+end
+function wh18()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.toast(" Wallhack 625 ")
+end
+function wh19()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 626 ")
+end
+function wh20()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("504")
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("900")
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 630 ")
+end
+function wh21()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("504")
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("900")
+gg.getResults(20)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 632 ")
+end
+function wh22()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("120", 16)
+gg.toast(" Wallhack 636 ")
+end
+function wh23()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 650 ")
+end
+function wh24()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 652 ")
+end
+function wh25()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 653 ")
+end
+function wh26()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber(2, 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 660 ")
+end
+function wh27()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.0F;1.66231134e-19F;0.0F;9.21942286e-41F;7.23035964e-15F;2.37549734116F;4.40284136e-29F;2.25000905991F;3.58159416e-39F;1.66433004e10F::37", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("200")
+gg.getResults(25)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.0F;-1.0F;0.0F;1.0F;-127.0F;0.24022650719F;0.69314718246F;0.00999999978F;-0.0F;0.0F::37", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("930")
+gg.getResults(25)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("A8C")
+gg.getResults(25)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("B10")
+gg.getResults(25)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("588")
+gg.getResults(25)
+gg.editAll("999", 16)
+gg.clearResults()
+gg.toast(" Wallhack 665 ")
+end
+function wh28()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("6.03209094e21", 16, false, 536870912, 0, -1)
+gg.getResults(6281913639784)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("-2.57741948e-39", 16, false, 536870912, 0, -1)
+gg.getResults(6281913639784)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.toast(" Wallhack 670 ")
+end
+function wh29()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("200")
+gg.getResults(999)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.refineAddress("930")
+gg.getResults(999)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 675 ")
+end
+function wh30()
+
+end
+function wh31()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(999)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(999)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 712 ")
+end
+function wh32()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 800 ")
+end
+function wh33()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("3.15292154e-43;2.0;2.0;3.1949605e-43:73", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("3.15292154e-43;2.0;2.0;3.1949605e-43;4.34402524e-44;2.0;4.62428493e-44;4.76441478e-44:241", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("120", 16)
+gg.toast(" Wallhack 801 ")
+end
+function wh34()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 805 ")
+end
+function wh35()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 808 ")
+end
+function wh36()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
+gg.refineNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 810 ")
+end
+function wh37()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.toast(" Wallhack 815 ")
+end
+function wh38()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.toast(" Wallhack 820 ")
+end
+function wh39()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("130", 16)
+gg.clearResults()
+gg.toast(" Wallhack 821 ")
+end
+function wh40()
+gg.setRanges(131072)
+gg.searchNumber("2.0;4.7961574e21;4.7408166e21", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2.0;4.8699472e21;4.8699466e21", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.toast("50%")
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.toast(" Wallhack 835 ")
+end
+function wh41()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("95D;2;9.2194229e-41::100", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(6)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("5.201992e21;2.25000452995;2;1.6623054e-19", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(4)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2;-1;0;1;-127;0.24022650719;0.69314718246;0.00999999978::30", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.toast(" Wallhack 845 ")
+end
+function wh42()
+MN = gg.multiChoice({
+	 '☣  New Wallhack SD 855 [Graphic HDR]',
+	 '☣  New Wallhack SD 855 [Graphic Smooth]',
+	 '☣ ⎋ BACK',
+	}, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+	if MN == nil then
+  else
+  if MN[1] == true then
+       WH855HDR()
+      end
+  if MN[2] == true then
+      WH855SMOOTH()
+     end  
+  if MN[3] == true then
+      WALLHACKSD() 
+      end
+        end
+  PUBGMH = -1
+end
+function WH855HDR()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("-0.01000213623F;2.0F;-1.0F;0.0F;0.04000854492F;0.11999511719F;-0.02749633789F;-0.57177734375F;0.02200317383F;0.04251098633F:37", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("-1000", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("1.3912657e-19F;2.0F;1.6623164e-19F;3.6734353e-39F", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("129", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("1.3912525e-19;3.7615819e-37;2;-1::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("129", 16)
+gg.clearResults()
+gg.searchNumber("1.3912559e-19;2;1.6623071e-19::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("129", 16)
+gg.clearResults()
+gg.searchNumber("1.391256e-19;2;1.6623108e-19::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("129", 16)
+gg.clearResults()
+gg.searchNumber("1.5414283e-44;1.1202057e-19;3.7615819e-37;2::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("129", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.clearResults()
+gg.searchNumber("1.3912563e-19;2;1.6623075e-19;2.25000858307;1.6643298e10::", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("118", 16)
+gg.clearResults()
+gg.editAll("6", 4)
+gg.clearResults()
+gg.searchNumber("2.6102227e21F;9;45,259.12109375F;34::", 4, false, 536870912, 0, -1)
+gg.searchNumber("34", 4, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("1", 4)
+gg.clearResults()
+gg.toast(" Wallhack 855 [Graphic HDR] ")
+end
+function WH855SMOOTH()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2;541,343,815D;65,792D;671,236,134D", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2;3.7615819e-37;-1.7632462e-38;4.5917748e-41;-1.763246e-38;4.5920551e-41;-1.7632459e-38", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.clearResults()
+gg.searchNumber("2;3.7615819e-37;1.1202056e-19;3.9236357e-44;1.3912567e-19;2.8866748e-43", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("120", 16)
+gg.toast(" Wallhack 855 [Graphic Smooth] ")
+end
+function WALLHACKOT()
+  MN = gg.multiChoice({
+    "☣ Wallhack Exynos 7420",
+    "☣ Wallhack Exynos 7570",
+    "☣ Wallhack Exynos 7870",
+    "☣ Wallhack Exynos 7880",
+    "☣ Wallhack Kirin 650",
+    "☣ Wallhack Kirin 655",
+    "☣ Wallhack Mediatek 6750",
+    "☣ Wallhack Mediatek 6765",
+    "☣ Wallhack Mediatek G90T",
+    "☣ Wallhack Mediatek P10",
+    "☣ Wallhack Mediatek P22",
+    "☣ Wallhack Mediatek P23",
+    "☣ Wallhack Mediatek P35",
+    "⎋ BACK"
+  }, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+  if MN == nil then
+  else
+    if MN[1] == true then
+      WHEXY7420()
+    end
+    if MN[2] == true then
+      WHEXY7570()
+    end
+    if MN[3] == true then
+      WHEXY7870()
+    end
+    if MN[4] == true then
+      WHEXY7880()
+    end
+    if MN[5] == true then
+      KR650()
+    end
+    if MN[6] == true then
+      KR655()
+    end
+    if MN[7] == true then
+      MT6750()
+    end
+    if MN[8] == true then
+      MT6765()
+    end
+    if MN[9] == true then
+      MTG90T()
+    end
+    if MN[10] == true then
+      MTP10()
+    end
+    if MN[11] == true then
+      MTP22()
+    end
+    if MN[12] == true then
+      MTP23()
+    end
+    if MN[13] == true then
+      MTP35()
+    end
+    if MN[14] == true then
+      HOME()
+    end
+  end
+  PUBGMH = -1
+end
+function WHEXY7420()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("360;0;0;0;-640;1;1;1;0;0;0;0;1;360;640;0.5;0;0;0;0.5;1;1;0;0;0;0;0;1;1;1;1;1,098618e-48:373", 16)
+  gg.searchNumber("0.5", 16)
+  gg.getResults(10)
+  gg.editAll("50", 16)
+  gg.addListItems({
+    [1] = {
+      address = 519861186512,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [2] = {
+      address = 519861186592,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [3] = {
+      address = 519861186672,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [4] = {
+      address = 519861186912,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [5] = {
+      address = 519861187072,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [6] = {
+      address = 519861188032,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [7] = {
+      address = 519861188432,
+      flags = 16,
+      value = 0.5
+    },
+    [8] = {
+      address = 519861188512,
+      flags = 16,
+      value = 0.5
+    },
+    [9] = {
+      address = 519861188672,
+      flags = 16,
+      value = 0.5
+    },
+    [10] = {
+      address = 519861188832,
+      flags = 16,
+      value = 0.5
+    }
+  })
+  gg.toast("☣ Wallhack Exynos 7420 ")
+end
+function WHEXY7570()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("360;0;0;0;-640;1;1;1;0;0;0;0;1;360;640;0.5;0;0;0;0.5;1;1;0;0;0;0;0;1;1;1;1;1,098618e-48:373", 16)
+  gg.searchNumber("0.5", 16)
+  gg.getResults(10)
+  gg.editAll("50", 16)
+  gg.addListItems({
+    [1] = {
+      address = 519861188992,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [2] = {
+      address = 519861189152,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [3] = {
+      address = 519861189312,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [4] = {
+      address = 519861901820,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [5] = {
+      address = 519861905680,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [6] = {
+      address = 519862088276,
+      flags = 16,
+      freeze = true,
+      value = 50
+    },
+    [7] = {
+      address = 519892505440,
+      flags = 16,
+      value = 0.5
+    },
+    [8] = {
+      address = 519892506000,
+      flags = 16,
+      value = 0.5
+    },
+    [9] = {
+      address = 519892506160,
+      flags = 16,
+      value = 0.5
+    },
+    [10] = {
+      address = 519892514400,
+      flags = 16,
+      value = 0.5
+    }
+  })
+  gg.toast("☣ Wallhack Exynos 7570 ")
+end
+function WHEXY7870()
+  gg.searchNumber("\"0.5;0.5;5.1567783e-43;2.2958874e-41:125\"", 16, false, 536870912, 0, -1)
+  gg.refineNumber("\"0.5\"", 16, false, 536870912, 0, -1)
+  gg.getResults(20, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(20, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.toast("☣ Wallhack Exynos 7870 ")
+end
+function WHEXY7880()
+  gg.searchNumber("\"0.5;0.5;5.1567783e-43;2.2958874e-41:125\"", 16, false, 536870912, 0, -1)
+  gg.refineNumber("\"0.5\"", 16, false, 536870912, 0, -1)
+  gg.getResults(20, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(20, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.toast("☣ Wallhack Exynos 7880")
+end
+function KR650()
+  gg.clearResults()
+  gg.searchNumber("8.4077908e-45;4.2038954e-45;1.5694543e-43;1.4012985e-45;2.8025969e-45;268.0;480.0;0.5:149", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({
+    [1] = {
+      address = 519782472912,
+      flags = 16,
+      value = 0.5
+    },
+    [2] = {
+      address = 519783638816,
+      flags = 16,
+      value = 0.5
+    },
+    [3] = {
+      address = 519784419132,
+      flags = 16,
+      value = 0.5
+    },
+    [4] = {
+      address = 519784482276,
+      flags = 16,
+      value = 0.5
+    },
+    [5] = {
+      address = 519785759704,
+      flags = 16,
+      value = 0.5
+    },
+    [6] = {
+      address = 519786986944,
+      flags = 16,
+      value = 0.5
+    },
+    [7] = {
+      address = 519838568608,
+      flags = 16,
+      value = 0.5
+    },
+    [8] = {
+      address = 522163030220,
+      flags = 16,
+      value = 0.5
+    },
+    [9] = {
+      address = 522168643952,
+      flags = 16,
+      value = 0.5
+    },
+    [10] = {
+      address = 522168644028,
+      flags = 16,
+      value = 0.5
+    },
+    [11] = {
+      address = 522168644140,
+      flags = 16,
+      value = 0.5
+    },
+    [12] = {
+      address = 522168644672,
+      flags = 16,
+      value = 0.5
+    },
+    [13] = {
+      address = 522168644716,
+      flags = 16,
+      value = 0.5
+    },
+    [14] = {
+      address = 522168647596,
+      flags = 16,
+      value = 0.5
+    },
+    [15] = {
+      address = 522168647676,
+      flags = 16,
+      value = 0.5
+    },
+    [16] = {
+      address = 522168647804,
+      flags = 16,
+      value = 0.5
+    },
+    [17] = {
+      address = 522168648304,
+      flags = 16,
+      value = 0.5
+    },
+    [18] = {
+      address = 522168649360,
+      flags = 16,
+      value = 0.5
+    },
+    [19] = {
+      address = 522168649600,
+      flags = 16,
+      value = 0.5
+    },
+    [20] = {
+      address = 522168649680,
+      flags = 16,
+      value = 0.5
+    },
+    [21] = {
+      address = 522168650564,
+      flags = 16,
+      value = 0.5
+    },
+    [22] = {
+      address = 522168650924,
+      flags = 16,
+      value = 0.5
+    },
+    [23] = {
+      address = 522169165428,
+      flags = 16,
+      value = 0.5
+    },
+    [24] = {
+      address = 522169165504,
+      flags = 16,
+      value = 0.5
+    },
+    [25] = {
+      address = 522169165616,
+      flags = 16,
+      value = 0.5
+    },
+    [26] = {
+      address = 522169166148,
+      flags = 16,
+      value = 0.5
+    },
+    [27] = {
+      address = 522169166192,
+      flags = 16,
+      value = 0.5
+    },
+    [28] = {
+      address = 522169169072,
+      flags = 16,
+      value = 0.5
+    },
+    [29] = {
+      address = 522169169152,
+      flags = 16,
+      value = 0.5
+    },
+    [30] = {
+      address = 522169169280,
+      flags = 16,
+      value = 0.5
+    },
+    [31] = {
+      address = 522169169780,
+      flags = 16,
+      value = 0.5
+    },
+    [32] = {
+      address = 522169170836,
+      flags = 16,
+      value = 0.5
+    },
+    [33] = {
+      address = 522169171076,
+      flags = 16,
+      value = 0.5
+    },
+    [34] = {
+      address = 522169171156,
+      flags = 16,
+      value = 0.5
+    },
+    [35] = {
+      address = 522169172040,
+      flags = 16,
+      value = 0.5
+    },
+    [36] = {
+      address = 522169172400,
+      flags = 16,
+      value = 0.5
+    },
+    [37] = {
+      address = 522173802548,
+      flags = 16,
+      value = 0.5
+    },
+    [38] = {
+      address = 522174400272,
+      flags = 16,
+      value = 0.5
+    },
+    [39] = {
+      address = 522174547588,
+      flags = 16,
+      value = 0.5
+    },
+    [40] = {
+      address = 522175915696,
+      flags = 16,
+      value = 0.5
+    },
+    [41] = {
+      address = 522178317296,
+      flags = 16,
+      value = 0.5
+    },
+    [42] = {
+      address = 522178719628,
+      flags = 16,
+      value = 0.5
+    },
+    [43] = {
+      address = 522190932612,
+      flags = 16,
+      value = 0.5
+    },
+    [44] = {
+      address = 522191220704,
+      flags = 16,
+      value = 0.5
+    },
+    [45] = {
+      address = 522193515972,
+      flags = 16,
+      value = 0.5
+    },
+    [46] = {
+      address = 522207947064,
+      flags = 16,
+      value = 0.5
+    },
+    [47] = {
+      address = 522207947136,
+      flags = 16,
+      value = 0.5
+    },
+    [48] = {
+      address = 522207947488,
+      flags = 16,
+      value = 0.5
+    },
+    [49] = {
+      address = 522207947784,
+      flags = 16,
+      value = 0.5
+    },
+    [50] = {
+      address = 522209004340,
+      flags = 16,
+      value = 0.5
+    },
+    [51] = {
+      address = 522209008188,
+      flags = 16,
+      value = 0.5
+    },
+    [52] = {
+      address = 522209020572,
+      flags = 16,
+      value = 0.5
+    },
+    [53] = {
+      address = 522209498428,
+      flags = 16,
+      value = 0.5
+    },
+    [54] = {
+      address = 522209498988,
+      flags = 16,
+      value = 0.5
+    },
+    [55] = {
+      address = 522211540380,
+      flags = 16,
+      value = 0.5
+    },
+    [56] = {
+      address = 522211556612,
+      flags = 16,
+      value = 0.5
+    },
+    [57] = {
+      address = 522213181352,
+      flags = 16,
+      value = 0.5
+    },
+    [58] = {
+      address = 522213193976,
+      flags = 16,
+      value = 0.5
+    },
+    [59] = {
+      address = 522213628800,
+      flags = 16,
+      value = 0.5
+    },
+    [60] = {
+      address = 522227671616,
+      flags = 16,
+      value = 0.5
+    },
+    [61] = {
+      address = 522227672172,
+      flags = 16,
+      value = 0.5
+    },
+    [62] = {
+      address = 522228158036,
+      flags = 16,
+      value = 0.5
+    },
+    [63] = {
+      address = 522228158520,
+      flags = 16,
+      value = 0.5
+    },
+    [64] = {
+      address = 522228331864,
+      flags = 16,
+      value = 0.5
+    },
+    [65] = {
+      address = 522228337688,
+      flags = 16,
+      value = 0.5
+    },
+    [66] = {
+      address = 522228342312,
+      flags = 16,
+      value = 0.5
+    },
+    [67] = {
+      address = 522228342772,
+      flags = 16,
+      value = 0.5
+    },
+    [68] = {
+      address = 522228350332,
+      flags = 16,
+      value = 0.5
+    },
+    [69] = {
+      address = 522228358076,
+      flags = 16,
+      value = 0.5
+    },
+    [70] = {
+      address = 522228358692,
+      flags = 16,
+      value = 0.5
+    },
+    [71] = {
+      address = 522230173492,
+      flags = 16,
+      value = 0.5
+    },
+    [72] = {
+      address = 522230963772,
+      flags = 16,
+      value = 0.5
+    },
+    [73] = {
+      address = 522231738072,
+      flags = 16,
+      value = 0.5
+    },
+    [74] = {
+      address = 522233093336,
+      flags = 16,
+      value = 0.5
+    },
+    [75] = {
+      address = 522233283536,
+      flags = 16,
+      value = 0.5
+    },
+    [76] = {
+      address = 522233284484,
+      flags = 16,
+      value = 0.5
+    },
+    [77] = {
+      address = 522233297528,
+      flags = 16,
+      value = 0.5
+    },
+    [78] = {
+      address = 522233305528,
+      flags = 16,
+      value = 0.5
+    },
+    [79] = {
+      address = 522233306160,
+      flags = 16,
+      value = 0.5
+    },
+    [80] = {
+      address = 522233307512,
+      flags = 16,
+      value = 0.5
+    },
+    [81] = {
+      address = 522233307556,
+      flags = 16,
+      value = 0.5
+    },
+    [82] = {
+      address = 522233309788,
+      flags = 16,
+      value = 0.5
+    },
+    [83] = {
+      address = 522233312828,
+      flags = 16,
+      value = 0.5
+    },
+    [84] = {
+      address = 522233315320,
+      flags = 16,
+      value = 0.5
+    },
+    [85] = {
+      address = 522233315512,
+      flags = 16,
+      value = 0.5
+    },
+    [86] = {
+      address = 522233315780,
+      flags = 16,
+      value = 0.5
+    },
+    [87] = {
+      address = 522233315792,
+      flags = 16,
+      value = 0.5
+    },
+    [88] = {
+      address = 522233315888,
+      flags = 16,
+      value = 0.5
+    },
+    [89] = {
+      address = 522233321588,
+      flags = 16,
+      value = 0.5
+    },
+    [90] = {
+      address = 522233322684,
+      flags = 16,
+      value = 0.5
+    },
+    [91] = {
+      address = 522233323340,
+      flags = 16,
+      value = 0.5
+    },
+    [92] = {
+      address = 522233326968,
+      flags = 16,
+      value = 0.5
+    },
+    [93] = {
+      address = 522233329244,
+      flags = 16,
+      value = 0.5
+    },
+    [94] = {
+      address = 522233329248,
+      flags = 16,
+      value = 0.5
+    },
+    [95] = {
+      address = 522233330848,
+      flags = 16,
+      value = 0.5
+    },
+    [96] = {
+      address = 522233331084,
+      flags = 16,
+      value = 0.5
+    },
+    [97] = {
+      address = 522233331692,
+      flags = 16,
+      value = 0.5
+    },
+    [98] = {
+      address = 522233331700,
+      flags = 16,
+      value = 0.5
+    },
+    [99] = {
+      address = 522233331800,
+      flags = 16,
+      value = 0.5
+    },
+    [100] = {
+      address = 522233334312,
+      flags = 16,
+      value = 0.5
+    },
+    [101] = {
+      address = 522233336148,
+      flags = 16,
+      value = 0.5
+    },
+    [102] = {
+      address = 522233519496,
+      flags = 16,
+      value = 0.5
+    },
+    [103] = {
+      address = 522234816284,
+      flags = 16,
+      value = 0.5
+    },
+    [104] = {
+      address = 522236690688,
+      flags = 16,
+      value = 0.5
+    },
+    [105] = {
+      address = 522244821316,
+      flags = 16,
+      value = 0.5
+    }
+  })
+  gg.toast(" Wallhack Kirin 650 ")
+end
+function KR655()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("8.5077908e-45;4.2038954e-45;2.8025969e-45;0.5;0.5;2.8025969e-45;1.4012985e-45;7.0064923e-45:337", 16, false, 536870912, 0, -1)
+  gg.refineNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.toast("50%")
+  gg.searchNumber("56;64;80;16;80:93", 4, false, 536870912, 0, -1)
+  gg.refineNumber("56", 4, false, 536870912, 0, -1)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(999, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.toast(" Wallhack Kirin 655 ")
+end
+function MT6750()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("56D;1407374883684354Q;0.5F:573", 4, false, 536870912, 0, -1)
+  gg.processResume()
+  gg.refineNumber("56", 4, false, 536870912, 0, -1)
+  gg.getResults(13, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("54", 4)
+  gg.processResume()
+  gg.processResume()
+  gg.searchNumber("54D;1407374883684354Q;0.5F:573", 4, false, 536870912, 0, -1)
+  gg.processResume()
+  gg.refineNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(13, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.editAll("0", 16)
+  gg.searchNumber("54D;1407374883684354Q;0.5F:573", 4, false, 536870912, 0, -1)
+  gg.refineNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(13, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(13, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.toast(" Wallhack Mediatek 6750 ")
+end
+function MT6765()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("131,074;1;1,131,413,504;1,137,967,104;1,056,964,608:225", 4, false, 536870912, 0, -1)
+  gg.refineNumber("1,056,964,608", 4, false, 536870912, 0, -1)
+  gg.getResults(4, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(4, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.toast("☣ Wallhack Mediatek 6765")
+end
+function MTG90T()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("16;32;40;48;40:41", 4, false, 536870912, 0, -1)
+  gg.searchNumber("40", 4, false, 536870912, 0, -1)
+  gg.getResults(10)
+  gg.editAll("36", 4)
+  gg.clearResults()
+  gg.searchNumber("\"1.793662e-43F;3.5873241e-43F;1.1210388e-44F;0.5F:512\"", 16, false, 536870912, 0, -1)
+  gg.processResume()
+  gg.refineNumber("\"0.5\"", 16, false, 536870912, 0, -1)
+  gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  gg.addListItems({})
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.processResume()
+  gg.getListItems()
+  gg.getListItems()
+  gg.addListItems({
+    [1] = {
+      address = 519782472912,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [2] = {
+      address = 519783638816,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [3] = {
+      address = 519784419132,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [4] = {
+      address = 519784482276,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [5] = {
+      address = 519785759704,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [6] = {
+      address = 519786986944,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [7] = {
+      address = 519838568608,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [8] = {
+      address = 522163030220,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [9] = {
+      address = 522168643952,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [10] = {
+      address = 522168644028,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [11] = {
+      address = 522168644140,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [12] = {
+      address = 522168644672,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [13] = {
+      address = 522168644716,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [14] = {
+      address = 522168647596,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [15] = {
+      address = 522168647676,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [16] = {
+      address = 522168647804,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [17] = {
+      address = 522168648304,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [18] = {
+      address = 522168649360,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [19] = {
+      address = 522168649600,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [20] = {
+      address = 522168649680,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [21] = {
+      address = 522168650564,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [22] = {
+      address = 522168650924,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [23] = {
+      address = 522169165428,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [24] = {
+      address = 522169165504,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [25] = {
+      address = 522169165616,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [26] = {
+      address = 522169166148,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [27] = {
+      address = 522169166192,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [28] = {
+      address = 522169169072,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [29] = {
+      address = 522169169152,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [30] = {
+      address = 522169169280,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [31] = {
+      address = 522169169780,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [32] = {
+      address = 522169170836,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [33] = {
+      address = 522169171076,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [34] = {
+      address = 522169171156,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [35] = {
+      address = 522169172040,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [36] = {
+      address = 522169172400,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [37] = {
+      address = 522173802548,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [38] = {
+      address = 522174400272,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [39] = {
+      address = 522174547588,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [40] = {
+      address = 522175915696,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [41] = {
+      address = 522178317296,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [42] = {
+      address = 522178719628,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [43] = {
+      address = 522190932612,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [44] = {
+      address = 522191220704,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [45] = {
+      address = 522193515972,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [46] = {
+      address = 522207947064,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [47] = {
+      address = 522207947136,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [48] = {
+      address = 522207947488,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [49] = {
+      address = 522207947784,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [50] = {
+      address = 522209004340,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [51] = {
+      address = 522209008188,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [52] = {
+      address = 522209020572,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [53] = {
+      address = 522209498428,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [54] = {
+      address = 522209498988,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [55] = {
+      address = 522211540380,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [56] = {
+      address = 522211556612,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [57] = {
+      address = 522213181352,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [58] = {
+      address = 522213193976,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [59] = {
+      address = 522213628800,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [60] = {
+      address = 522227671616,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [61] = {
+      address = 522227672172,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [62] = {
+      address = 522228158036,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [63] = {
+      address = 522228158520,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [64] = {
+      address = 522228331864,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [65] = {
+      address = 522228337688,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [66] = {
+      address = 522228342312,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [67] = {
+      address = 522228342772,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [68] = {
+      address = 522228350332,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [69] = {
+      address = 522228358076,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [70] = {
+      address = 522228358692,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [71] = {
+      address = 522230173492,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [72] = {
+      address = 522230963772,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [73] = {
+      address = 522231738072,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [74] = {
+      address = 522233093336,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [75] = {
+      address = 522233283536,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [76] = {
+      address = 522233284484,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [77] = {
+      address = 522233297528,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [78] = {
+      address = 522233305528,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [79] = {
+      address = 522233306160,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [80] = {
+      address = 522233307512,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [81] = {
+      address = 522233307556,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [82] = {
+      address = 522233309788,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [83] = {
+      address = 522233312828,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [84] = {
+      address = 522233315320,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [85] = {
+      address = 522233315512,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [86] = {
+      address = 522233315780,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [87] = {
+      address = 522233315792,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [88] = {
+      address = 522233315888,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [89] = {
+      address = 522233321588,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [90] = {
+      address = 522233322684,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [91] = {
+      address = 522233323340,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [92] = {
+      address = 522233326968,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [93] = {
+      address = 522233329244,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [94] = {
+      address = 522233329248,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [95] = {
+      address = 522233330848,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [96] = {
+      address = 522233331084,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [97] = {
+      address = 522233331692,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [98] = {
+      address = 522233331700,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [99] = {
+      address = 522233331800,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [100] = {
+      address = 522233334312,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [101] = {
+      address = 522233336148,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [102] = {
+      address = 522233519496,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [103] = {
+      address = 522234816284,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [104] = {
+      address = 522236690688,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    },
+    [105] = {
+      address = 522244821316,
+      flags = 16,
+      freeze = true,
+      freezeType = 0,
+      value = "\"2.0\""
+    }
+  })
+  gg.processResume()
+  gg.toast(" Wallhack Mediatek G90T ")
+end
+function MTP10()
+  gg.searchNumber("8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;2.8025969e-45;2.7550649e-40;4.5917748e-40;0.5;10000", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.getResultsCount()
+  gg.searchNumber("1.4061078e-19;8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;1.4012985e-45;2.8025969e-45;0.5;10000", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.getResultsCount()
+  gg.clearResults()
+  gg.searchNumber("0.5F;0.5F;0.00481127109F;0.06090228632F;7.54919099808F;7.12168121338F;6.57414674759F::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", 16)
+  gg.clearResults()
+  gg.searchNumber("56;64;48::35", 4, false, 536870912, 0, -1)
+  gg.searchNumber("56", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("47", 4)
+  gg.toast("☣ Wallhack Mediatek P10 ")
+end
+function MTP22()
+  gg.setRanges(4)
+  gg.searchNumber("5;3;1;5", 16, false, 536870912, 0, -1)
+  gg.searchNumber("3", 16, false, 536870912, 0, -1)
+  gg.getResults(16)
+  gg.editAll("130", 16)
+  gg.getResults(100)
+  gg.addListItems({
+    [1] = {
+      address = 519833797252,
+      flags = 16,
+      freeze = true,
+      value = 130
+    },
+    [2] = {
+      address = 519861846660,
+      flags = 16,
+      freeze = true,
+      value = 130
+    },
+    [3] = {
+      address = 519861858948,
+      flags = 16,
+      freeze = true,
+      value = 130
+    },
+    [4] = {
+      address = 519862620804,
+      flags = 16,
+      freeze = true,
+      value = 130
+    },
+    [5] = {
+      address = 519862641412,
+      flags = 16,
+      value = 130
+    },
+    [6] = {
+      address = 519862641796,
+      flags = 16,
+      value = 130
+    },
+    [7] = {
+      address = 519862655748,
+      flags = 16,
+      value = 130
+    },
+    [8] = {
+      address = 519862656132,
+      flags = 16,
+      value = 130
+    }
+  })
+  gg.clearResults()
+  gg.toast("☣ Wallhack Mediatek P22 ")
+end
+function MTP23()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.setRanges(4)
+  gg.searchNumber("4.0917915e-43;4.6523109e-43;5.6051939e-45;1.4012985e-45;1.4012985e-45;4.2038954e-45;4.2038954e-45;7.0064923e-45;4.2038954e-45;1.4012985e-45;6.0536094e-43;1.4012985e-45;2.8025969e-45;3.5873241e-43;0.5::", 16, false, 536870912, 0, -1)
+  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.getResultsCount()
+  gg.addListItems({
+    [1] = {
+      address = 2645292240,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645292256,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645301140,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645301172,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645304980,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645305012,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645306708,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645306740,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645308820,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645308852,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645313748,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645313780,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645325716,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645325748,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645329940,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2645329972,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2650191312,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2650191344,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2687549132,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2687565632,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2687582140,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2687603216,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.addListItems({
+    [1] = {
+      address = 2687603644,
+      flags = 16,
+      freeze = true,
+      value = 2
+    }
+  })
+  gg.clearResults()
+  gg.searchNumber("56;64;48::35", 4, false, 536870912, 0, -1)
+  gg.searchNumber("56", 4, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("47", 4)
+  gg.toast("☣ Wallhack Mediatek P23 ")
+end
+function MTP35()
+  gg.clearResults()
+  gg.setRanges(4)
+  gg.searchNumber("5;3;1;5", 16, false, 536870912, 0, -1)
+  gg.searchNumber("3", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.addListItems({})
+  gg.clearResults()
+  gg.setVisible(false)
+  gg.toast("☣ Wallhack Mediatek P35 ")
+end
+      function COLOUR()
+      MN = gg.choice({
+           '☣ BLUE',
+           '☣ GREEN',
+           '☣ ORANGE',
+           '☣ PINK ',
+           '☣ RAINBOW',
+           '☣ RED',
+           '☣ WHITE',
+           '☣ YELLOW',
+           '☣ COLOUR SD 665【MENU】',
+           '⎋ BACK',
+      }, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+      if MN == nil then
+    else
+      if MN == 1 then
+        BLUE()
+      end
+      if MN == 2 then
+        GREEN()
+      end
+      if MN == 3 then
+        ORANGE()
+        end
+      if MN == 4 then
+        PINK()
+      end
+      if MN == 5 then
+        RAINBOW()
+      end
+      if MN == 6 then
+        RED()
+        end
+      if MN == 7 then
+        WHITE()
+      end
+      if MN == 8 then
+        YELLOW()
+        end
+      if MN == 9 then
+        COLOR665()
+    end
+    if MN == 10 then
+        HOME()
+    end
+    end
+    PUBGMH = -1
+  end
+  function BLUE()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("256;655370;128;8200;16;243;201;539246603:129", 4, false, 536870912, 0, -1)
+gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("3", 4)
+gg.clearResults()
+gg.toast(" Color All Device Blue ")
+end
+function GREEN()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.refineAddress("0D0", -1, 32, 536870912, 0, -1)
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("2305913382252838924", 32)
+gg.clearResults()
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.refineAddress("0C8", -1, 32, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("7169730606773831033", 32)
+gg.clearResults()
+gg.toast(" Color All Device Green ")
+end
+function ORANGE()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("1.1490647e-41;1.0863203e-19::", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.0863203e-19", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("1.0863203e-25", 16)
+gg.clearResults()
+gg.toast(" Color All Device Orange ")
+end
+function PINK()
+gg.setRanges(131072)
+gg.searchNumber("4641040797046013952", 32, false, 536870912, 0, -1)
+gg.refineNumber("4641040797046013952", 32, false, 536870912, 0, -1)
+gg.refineAddress("720", -1, 32, 536870912, 0, -1)
+gg.refineNumber("4641040797046013952", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("4641040797046013935", 32)
+gg.clearResults()
+gg.toast(" Color All Device Pink ")
+end
+function RAINBOW()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("4.5926155869782e-41;1.0863202718415e-19", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.0863202718415e-19", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("1.0863202718415e-25", 16)
+gg.clearResults()
+gg.toast(" Color All Device Rainbow ")
+end
+function RED()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.refineAddress("0C0", -1, 32, 536870912, 0, -1)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("2305913412317609996", 32)
+gg.clearResults()
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.refineAddress("0C8", -1, 32, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("7169730606773831033", 32)
+gg.clearResults()
+gg.toast("Color All Device Red")
+end
+function WHITE()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("8,192D;256D;8200D", 4, false, 536870912, 0, -1)
+gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("4", 4)
+gg.clearResults()
+gg.toast(" Color All Device White ")
+end
+function YELLOW()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.refineAddress("0C0", -1, 32, 536870912, 0, -1)
+gg.searchNumber("2305913412317609997", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("2305913412317609996", 32)
+gg.clearResults()
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.refineAddress("0D0", -1, 32, 536870912, 0, -1)
+gg.searchNumber("2305913382252838926", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("2305913382252838924", 32)
+gg.clearResults()
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.refineAddress("0C8", -1, 32, 536870912, 0, -1)
+gg.searchNumber("7169730606773899507", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("7169730606773831033", 32)
+gg.clearResults()
+gg.toast(" Color All Device Yellow ")
+end
+function COLOR665()
+MN = gg.choice({
+	'☣ Color 665 Blue',
+    '☣ Color 665 Green',
+    '☣ Color 665 Red ',
+    '☣ Color 665 Yellow',
+    '⎋ BACK',
+	}, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+	if MN == nil then
+    else
+   if MN == 1 then
+        NWBLUE()
+    end
+    if MN == 2 then
+        NWGREEN()
+    end
+    if MN == 3 then
+        NWRED()
+    end
+    if MN == 4 then
+        NWYELLOW()
+    end
+    if MN == 5 then
+        COLOUR()
+    end
+    end
+    PUBGMH = -1
+  end
+  function NWBLUE()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("32.773D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;1.050.800.659D;1.065.353.216D;1.170.939.904D;1.050.222.592D;1.058.422.784D::177", 4, false, 536870912, 0, -1)
+gg.searchNumber("32773", 4, false, 536870912, 0, -1)
+gg.getResults(25)
+gg.editAll("7", 4)
+gg.clearResults()
+gg.toast("🚸 COLOR 665 Blue 🚸")
+end
+function NWGREEN()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("69,897;147,457;69,739", 4, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("7", 4)
+gg.clearResults()
+gg.toast("🚸 COLOR 665 Green 🚸")
+end
+function NWRED()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("32.772D;-2.134.900.736D;-2.134.900.735D;-2.134.900.734D;50.331.648D;1.039.516.303D;1.025.761.280D;1.123.024.896D;-1.138.499.584D;-1.082.130.432D::189", 4, false, 536870912, 0, -1)
+gg.searchNumber("32772", 4, false, 536870912, 0, -1)
+gg.getResults(25)
+gg.editAll("7", 4)
+gg.clearResults()
+gg.toast("🚸 COLOR 665 Red 🚸")
+end
+function NWYELLOW()
+gg.clearResults()
+gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
+gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("6", 4)
+gg.clearResults()
+gg.toast("🚸 COLOR 665 Yellow 🚸")
+end
+     function LOBBY()
+    MN = gg.choice({
+	'☣ LESS RECOIL',
+	'☣ NO RECOIL',
+	' ⎋ BACK',
+	}, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+	if MN == nil then
+    else
+      if MN == 1 then
+        LESSR()
+      end
+      if MN == 2 then
+        NORECOIL()
+      end
+      if MN == 3 then
+        HOME()
+        end
+    end
+    PUBGMH = -1
+  end
+        function LESSR()
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-1903895931231645695", 32, false, 536870912, 0, -1)
+gg.refineNumber("-1903895931231645695", 32, false, 536870912, 0, -1)
+gg.refineAddress("2A0", -1, 32, 536870912, 0, -1)
+gg.refineNumber("-1903895931231645695", 32, false, 536870912, 0, -1)
+gg.getResults(1401)
+gg.editAll("-1903895931231645696", 32)
+gg.clearResults()
+gg.toast(" Less Recoil ")
+        end
+        function NORECOIL()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1,868,784,978;1,850,305,641;28,518;13,212::13", 4, false, 536870912, 0, -1)
+gg.searchNumber("1,850,305,641", 4, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("0", 4)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1;0;0;1,028,443,341;1,090,519,040;1,036,831,949;1,057,803,469;1,092,091,904;1,097,859,072::33", 4, false, 536870912, 0, -1)
+gg.searchNumber("1", 4, false, 536870912, 0, -1)
+gg.getResults(50)
+gg.editAll("0", 4)
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", 16, false, 536870912, 0, -1)
+gg.refineNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", 16, false, 536870912, 0, -1)
+gg.refineNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.toast(" No Recoil Lobby ")
+end
+function INGAME()
+    MN = gg.multiChoice({
+	 '☣  New Aimbot Ultra [Game]',
+	 '☣  New Aimlock [Game]',
+	 '☣  Anti Shake [Game]',
+	 '☣  New Auto Headshot [Game]',
+	 '☣  Fix No Damage Weapon [Game]',
+	 '☣  High Damage [Game]',
+     '☣  New Magic Bullet [Game]',
+	 '☣  Shotgun No Spread [Game]',
+	 '☣  New Speed Shot Weapon [Game]',
+	 '☣  Wallshot [Game]',
+	 '☣  Disable Spectate [On Plane]',
+	 '⎋ BACK',
+	}, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+	if MN == nil then
+  else
+    if MN[1] == true then
+      HACKINGAME1()
+    end
+    if MN[2] == true then
+      HACKINGAME2()
+    end
+    if MN[3] == true then
+      HACKINGAME3()
+    end
+    if MN[4] == true then
+      HACKINGAME4()
+    end
+    if MN[5] == true then
+      HACKINGAME5()
+    end
+    if MN[6] == true then
+      HACKINGAME6()
+    end
+    if MN[7] == true then
+      HACKINGAME7()
+    end
+    if MN[8] == true then
+      HACKINGAME8()
+    end
+    if MN[9] == true then
+      HACKINGAME9()
+    end
+    if MN[10] == true then
+      HACKINGAME10()
+    end
+    if MN[11] == true then
+      HACKINGAME11()
+    end
+    if MN[12] == true then
+      HOME()
+      end
+    end
+    PUBGMH = -1
+  end
+  function HACKINGAME1()
+gg.clearResults()
+gg.setRanges(8)
+gg.setRanges(8)
+gg.searchNumber("360;-360;0.0001;1478828288F:97", 16, false, 536870912, 0, -1)
+gg.refineNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("400", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("3.5;1;0.5;200;20::", 16, false, 536870912, 0, -1)
+gg.searchNumber("1", 16, false, 536870912, 0, -1)
+gg.getResults(600)
+gg.editAll("9999999", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("-88.82363891602F;15.0F;1", 16)
+gg.searchNumber("1", 16)
+gg.getResults(2000)
+gg.editAll("20000000000000", 16)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("360;0.0001;1478828288", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(1000)
+gg.editAll("99999999", 16)
+gg.toast(" Aimbot Ultra ")
+end
+function HACKINGAME2()
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("1,324,366,404", 4, false, 536870912, 0, -1)
+gg.searchNumber("1,324,366,404", 4, false, 536870912, 0, -1)
+gg.getResults(80)
+gg.editAll("0", 4)
+gg.clearResults()
+gg.toast("Loading...")
+gg.clearResults()
+gg.setRanges(16384)
+gg.searchNumber("3.14E;180F", 16, false, 536870912, 0, -1)
+gg.searchNumber("180", 16, false, 536870912, 0, -1)
+gg.getResults(4)
+gg.editAll("0.5", 16)
+gg.toast(" Aimlock ")
+end
+function HACKINGAME3()
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-3.3568104e27;-6.0171272e27;-1.5474616e26::", 16)
+gg.refineNumber("-1.5474616e26", 16)
+gg.getResults(1)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.searchNumber("-3.86857e25;-2.8092263e28::5", 16)
+gg.refineNumber("-2.8092263e28", 16)
+gg.getResults(1)
+gg.editAll("0", 16)
+gg.toast(" Anti Shake ")
+end
+function HACKINGAME4()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
+gg.searchNumber("26", 16, false, 536870912, 0, -1)
+gg.getResults(2)
+gg.editAll("-460", 16)
+gg.clearResults()
+gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
+gg.searchNumber("28", 16, false, 536870912, 0, -1)
+gg.getResults(2)
+gg.editAll("-560", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
+gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("251", 16)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1868784978;1850305641;28518", 4, false, 536870912, 0, -1)
+gg.searchNumber("1868784978", 4, false, 536870912, 0, -1)
+gg.getResults(1000)
+gg.editAll("1868756421", 4)
+gg.clearResults()
+gg.searchNumber("1750294898;1415932769;1819307365", 4, false, 536870912, 0, -1)
+gg.searchNumber("1750294898;1415932769;1819307365", 4, false, 536870912, 0, -1)
+gg.getResults(1000)
+gg.editAll("120000", 4)
+gg.clearResults()
+gg.setRanges(16384)
+gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("125", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("-125", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("90.775703430176;0;8;15;16;18;28", 16, false, 536870912, 0, -1)
+gg.searchNumber("28", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("1500", 16)
+gg.clearResults()
+gg.toast(" Auto Headshot 99% ")
+end
+function HACKINGAME5()
+gg.alert ('☣ SOON')
+end
+function HACKINGAME6()
+gg.clearResults()
+gg.setRanges(16384)
+gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("125", 16)
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("-125", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("90.775703430176;0;8;15;16;18;28", 16, false, 536870912, 0, -1)
+gg.searchNumber("28", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("1500", 16)
+gg.clearResults()
+gg.toast(" High Damage ")
+end
+function HACKINGAME7()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("9.20161819458;23;25;30.5", 16, false, 536870912, 0, -1)
+gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("240", 16)
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("\"0.10000000149;64.50088500977\"", 16, false, 536870912, 0, -1)
+gg.refineNumber("\"0.10000000149\"", 16, false, 536870912, 0, -1)
+gg.getResults(50, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("\"80\"", 16)
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-1.2382424e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-7.1608877e24::", 16, false, 536870912, 0, -1)
+gg.refineNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+gg.getResults(2)
+gg.editAll("7.5", 16)
+gg.clearResults()
+gg.toast(" Magic Bullet 99% ")
+end
+function HACKINGAME8()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("0.64999997616;0.89999997616;0.64999997616;1.5;0.80000001192;0.00999999978", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.64999997616", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("-999", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1.79999995232;1.79999995232;4;1.09375", 16, false, 536870912, 0, -1)
+gg.getResults(100)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("35000", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("300000", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("4.2038954e-45;12.0;18.0;3.5;1.1509145e-40", 16, false, 536870912, 0, -1)
+gg.searchNumber("12.0;18.0;3.5", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1.39999997616;1.5;1.5;4.0;1.09375", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.5;1.5;4.0;1.09375", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("4.2038954e-45;12.0;18.0;3.5;1.1509145e-40", 16, false, 536870912, 0, -1)
+gg.searchNumber("12.0;18.0;3.5", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1.39999997616;1.5;1.5;4.0;1.09375", 16, false, 536870912, 0, -1)
+gg.searchNumber("1.5;1.5;4.0;1.09375", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("0", 16)
+gg.toast(" Shotgun No Spread ")
+end
+function HACKINGAME9()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(35000, 16)
+gg.searchNumber(35000, 16)
+gg.getResults(20)
+gg.editAll(800000, 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("18.38614845276;0.53446006775;-3.4266242981", 16, false, 536870912, 0, -1)
+gg.getResults(500)
+gg.editAll("200", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("0.53446006775F;-1.68741035461F:501", 16, false, 536870912, 0, -1)
+gg.getResults(10)
+gg.editAll("-250", 16)
+gg.toast("S12K no delay + ultra damage ")
+end
+function HACKINGAME10()
+gg.clearResults()
+gg.setRanges(16)
+gg.searchNumber("1.0e-7;1.0e-7;2;2;1::512", 16, false, 536870912, 0, -1)
+gg.searchNumber("2", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("3.5032462e-44F;10.0F;45.0F", 16, false, 536870912, 0, -1)
+gg.searchNumber("10", 16, false, 536870912, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", 16)
+gg.clearResults()
+gg.toast(" Wallshot ")
+end
+function HACKINGAME11()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("909391408;808923191::8", 4)
+gg.getResults(999)
+gg.editAll("1089886885", 4)
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("909391408", 4)
+gg.getResults(999)
+gg.editAll("1089886885", 4)
+gg.toast(" Disable Spectate ")
+end
+function VISUAL()
+ MN = gg.multiChoice({
+ 	'☣ Aurora Sky ',
+	 '☣ Black Sky ',
+	 '☣ New Black Sky 410-425 ',
+	 '☣ Fog Remover ',
+	 '☣ Red Sky 425 ',
+	 '☣ Snow Perspective in Miramar ',
+	 '☣ No Grass Erangel ',
+	 '☣ No Grass Sanhok ',
+	 '☣ No Grass+Trees Exynos ',
+	 '☣ No Grass+Trees Snapdragon',
+	 '⎋ BACK',
+	}, nil, "*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+	if MN == nil then
+  else
+    if MN[1] == true then
+      AURO()
+    end
+    if MN[2] == true then
+      BLACKSKY()
+    end
+    if MN[3] == true then
+      NEWBLACK()
+    end
+    if MN[4] == true then
+      NOFOG()
+    end
+    if MN[5] == true then
+      REDSKY()
+    end
+    if MN[6] == true then
+      SNOW()
+    end
+    if MN[7] == true then
+      NOGRASSE()
+    end
+    if MN[8] == true then
+      NOGRASSS()
+    end
+    if MN[9] == true then
+      NOGTE()
+    end
+    if MN[10] == true then
+      NOGTS()
+    end
+    if MN[11] == true then
+      HOME()
+    end
+    end
+    PUBGMH = -1
+end
+function AURO()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("671236105;1074792717;8200;1194363663;11::17", 4, false, 536870912, 0, -1)
+gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("3", 4)
+gg.clearResults()
+gg.toast("🚸 Aurora Sky 🚸")
+end
+function BLACKSKY()
+gg.clearResults()
+gg.setRanges(131072)
+gg.clearResults()
+gg.searchNumber("100F;1F;1,008,981,770D:99", 16, false)
+gg.searchNumber("100", 16, false)
+gg.getResults(100)
+gg.editAll("-90", 16)
+gg.clearResults()
+gg.toast("🚸 Black Sky 🚸")
+end
+function NEWBLACK()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("1,120,403,456;0;1,220,861,952::9", 4, false, 536870912, 0, -1)
+gg.searchNumber("1,120,403,456", 4, false, 536870912, 0, -1)
+gg.getResults(3)
+gg.editAll("-1,027,211,264", 4)
+gg.clearResults()
+gg.toast("🚸 Black Sky Updated 🚸")
+end
+function NOFOG()
+gg.clearResults()
+gg.setRanges(8)
+gg.searchNumber("-2.3805679e21;-1.3620439e28;-1.3978205e24:9", 16, false, 536870912, 0, -1)
+gg.searchNumber("-1.3620439e28", 16, false, 536870912, 0, -1)
+gg.getResults(99)
+gg.editAll("0", 16)
+gg.toast("🚸 Fog Remover 🚸")
+end
+function REDSKY()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("327,684;8,197;256:45", 4, false, 536870912, 0, -1)
+gg.searchNumber("8,197", 4, false, 536870912, 0, -1)
+gg.getResults(5)
+gg.editAll("8,196", 4)
+gg.toast("🚸 Red Sky 🚸")
+end
+function SNOW()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3", 16, false, 536870912, 0, -1)
+gg.searchNumber("3", 16, false, 536870912, 0, -1)
+gg.getResults(30)
+gg.editAll("417", 16)
+gg.clearResults()
+gg.toast("🚸 Snow Perspective in Miramar 🚸")
+end
+function NOGRASSE()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512", 16, false, 536870912, 0, -1)
+gg.searchNumber("8.0", 16, false, 536870912, 0, -1)
+gg.getResults(300)
+gg.editAll("0", 16)
+gg.clearResults()
+gg.toast("🚸 No Grass Erangel 🚸")
+end
+function NOGRASSS()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("1084086274 ~ 1084087269", 4)
+gg.getResults(150)
+gg.editAll("0", 4)
+gg.clearResults()
+gg.toast("🚸 No Grass Sanhok 🚸")
+end
+function NOGTE()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("0.27913400531;0.56855899096;0.765625;0;360;640;0.5;-1;0.27913400531;0.56855899096;0.765625:81", 16)
+gg.searchNumber("0.5", 16)
+gg.getResults(1)
+gg.editAll("140", 16)
+gg.addListItems({ -- table(6c034f6)
+	[1] = { -- table(839cb64)
+		['address'] = 0xcaa6ec5c,
+		['flags'] = 16, -- gg.TYPE_FLOAT
+		['freeze'] = true,
+		['value'] = 140,
+	},
+})
+gg.toast("🚸 No Grass + Tress Exynos 🚸")
+end
+function NOGTS()
+gg.clearResults()
+gg.setRanges(131072)
+gg.searchNumber("0.00390625;1;0.99900001287;2", 16, false)
+gg.searchNumber("1", 16, false)
+gg.getResults(30)
+gg.editAll("0", 16)
+gg.toast("🚸 No Grass + Tress Snapdragon 🚸")
+end
+  function CLOSE() 
+    print("*╔═══❖•ೋ° °ೋ•❖═══╗*\n  ||  T E N D E X    H A C K E R  ||\n*╚═══❖•ೋ° °ೋ•❖═══╝*")
+    gg.skipRestoreState()
+    os.exit()
+    gg.setVisible(true)
+  end
+  while true do
+    if gg.isVisible(true) then
+      PUBGMH = 1
+      gg.setVisible(false)
+    end
+    gg.clearResults()
+    if PUBGMH == 1 then
+      HOME()
+    end
+  end
